@@ -18,22 +18,22 @@
           </div>
           <nav class="header-navigation" data-menu-navigation>
             <ul class="header-navigation-list">
-              <li class="header-navigation__item">
-                <a href="<?php echo home_url(); ?>/servey/"><i class="m-arrow"></i><span>調査項目</span></a>
+              <li class="header-navigation__item <?php if ( is_page('item') ): ?><?php echo('active-page') ?><?php endif; ?>">
+                <a href="<?php echo home_url(); ?>/item/"><i class="m-arrow"></i><span>調査項目</span></a>
               </li>
-              <li class="header-navigation__item">
+              <li class="header-navigation__item <?php if ( is_page('price') ): ?><?php echo('active-page') ?><?php endif; ?>">
                 <a href="<?php echo home_url(); ?>/price/"><i class="m-arrow"></i><span>料金について</span></a>
               </li>
-              <li class="header-navigation__item">
+              <li class="header-navigation__item <?php if ( is_page('company') ): ?><?php echo('active-page') ?><?php endif; ?>">
                 <a href="<?php echo home_url(); ?>/company/"><i class="m-arrow"></i><span>会社情報</span></a>
               </li>
-              <li class="header-navigation__item">
+              <li class="header-navigation__item" <?php if ( is_page('contact') ): ?><?php echo('active-page') ?><?php endif; ?>>
                 <a href="<?php echo home_url(); ?>/contact/"><i class="m-arrow"></i><span>お問い合わせ</span></a>
               </li>
-              <li class="header-navigation__item">
+              <li class="header-navigation__item <?php if ( is_page('faq') ): ?><?php echo('active-page') ?><?php endif; ?>">
                 <a href="<?php echo home_url(); ?>/faq/"><i class="m-arrow"></i><span>Q&amp;A</span></a>
               </li>
-              <li class="header-navigation__item">
+              <li class="header-navigation__item <?php if ( is_archive('blog') ): ?><?php echo('active-page') ?><?php endif; ?>">
                 <a href="<?php echo home_url(); ?>/blog/"><i class="m-arrow"></i><span>ブログ</span></a>
               </li>
             </ul>

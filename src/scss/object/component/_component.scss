@@ -1,9 +1,86 @@
 .breadcrumb {
   position: relative;
+  padding: 14px 0;
+
+  * {
+    color: #9f9f9f;
+    font-size: 12px;
+
+    @media (--lg) {
+      font-size: 14px;
+    }
+  }
 }
 
 .pager {
   position: relative;
+}
+
+.page-title {
+  padding: 30px 0;
+  background-color: $color-grey;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+
+  @media (--sm) {
+    padding: 50px;
+  }
+
+  @media (--lg) {
+    padding: 100px 0;
+  }
+
+  .page-title__heading {
+    font-weight: bold;
+
+    .jp {
+      display: block;
+      font-size: 24px;
+      color: $color-white;
+
+      @media (--lg) {
+        font-size: 42px;
+      }
+    }
+
+    .en {
+      display: block;
+      margin-top: 4px;
+      font-size: 14px;
+      line-height: 1;
+      font-family: $font-en;
+      color: $color-main;
+
+      @media (--lg) {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.page-lead {
+  margin: 30px 0;
+
+  @media (--md) {
+    margin: 45px 0;
+  }
+
+  @media (--lg) {
+    margin: 60px 0;
+  }
+
+  .page-lead__text {
+    @extend %justify;
+
+    font-size: 12px;
+
+    @media (--md) {
+      text-align: center;
+      font-size: 14px;
+      line-height: (24/14);
+    }
+  }
 }
 
 .cta {
@@ -13,6 +90,15 @@
     margin: 0 auto;
     position: relative;
     z-index: 1;
+  }
+
+  &.cta-bg {
+    .l-container {
+      background: url('../img/common/cta-background.jpg');
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: cover;
+    }
   }
 
   .cta-inner {
@@ -83,6 +169,23 @@
         width: 18px;
         margin-right: 6px;
       }
+    }
+  }
+
+  .cta-free {
+    text-align: center;
+    color: $color-white;
+    font-weight: bold;
+    font-size: 20px;
+
+    @media (--md) {
+      font-size: 22px;
+    }
+  }
+
+  .cta-free__text {
+    @media (--md) {
+      margin-top: 15px;
     }
   }
 
