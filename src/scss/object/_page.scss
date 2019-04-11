@@ -1,0 +1,61 @@
+.hoge {
+  @extend %section___padding;
+  @extend %section___margin;
+}
+
+#top {
+  background: #f5f5f5;
+
+  .cta {
+    margin: -100px auto 0;
+  }
+
+  .top-reason {
+    @extend %section___padding;
+  }
+
+  .top-price {
+    @extend %section___padding;
+
+    background: $color-main;
+
+    .top-heading {
+      .jp,
+      .en {
+        color: $color-white;
+      }
+    }
+  }
+
+  .top-plan {
+    @extend %section___padding;
+
+    background: $color-white;
+  }
+
+  .top-case {
+    @extend %section___padding;
+  }
+
+  .top-service {
+    @extend %section___padding;
+
+    background: $color-white;
+  }
+
+  .top-news {
+    @extend %section___padding;
+
+    background: $color-white;
+
+    @media (--md) {
+      background: #f5f5f5;
+    }
+  }
+
+  .top-area {
+    @extend %section___padding;
+
+    background: $color-white;
+  }
+}

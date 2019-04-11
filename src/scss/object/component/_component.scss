@@ -1,0 +1,160 @@
+.breadcrumb {
+  position: relative;
+}
+
+.pager {
+  position: relative;
+}
+
+.cta {
+  .l-container {
+    width: 92%;
+    background: #37414f;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cta-inner {
+    padding: 30px 0;
+
+    @media (--sm) {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    @media (--md) {
+      display: flex;
+      justify-content: space-between;
+      max-width: 686px;
+      margin: 0 auto;
+      padding: 45px 0;
+    }
+
+    > div {
+      &:first-child {
+        margin-bottom: 25px;
+
+        @media (--md) {
+          margin-bottom: 0;
+        }
+      }
+
+      @media (--md) {
+        width: 46%;
+      }
+    }
+  }
+
+  .cta-heading {
+    margin-bottom: 5px;
+    color: $color-white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+
+    @media (--md) {
+      margin-bottom: 10px;
+    }
+  }
+
+  .cta-btn {
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      background: #ccc;
+      border-radius: 50px;
+      font-size: 15px;
+      font-weight: bold;
+      height: 60px;
+
+      @media (--s_max) {
+        height: 50px;
+      }
+
+      @media (--sm) {
+        height: 70px;
+        font-size: 18px;
+      }
+
+      .m-icon {
+        width: 18px;
+        margin-right: 6px;
+      }
+    }
+  }
+
+  .cta-call {
+    .cta-call__title {
+      border: 2px solid $color-white;
+      color: $color-white;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 20px;
+      padding: 3px 0;
+      font-size: 14px;
+
+      @media (--lg) {
+        padding: 2px 0;
+      }
+    }
+
+    .cta-call__call {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3px;
+    }
+
+    .cta-call__time {
+      margin-right: 14px;
+      line-height: 1.2;
+      color: $color-white;
+      font-size: 10px;
+      font-weight: bold;
+
+      @media (--lg) {
+        font-size: 12px;
+      }
+    }
+
+    .cta-call__number {
+      a {
+        color: $color-main;
+        font-weight: bold;
+        font-size: 23px;
+        letter-spacing: .01em;
+
+        @media (--md) {
+          pointer-events: none;
+        }
+
+        @media (--s_max) {
+          font-size: 5.4vw;
+        }
+
+        @media (--lg) {
+          font-size: 25px;
+        }
+
+        .m-icon {
+          width: 18px;
+          margin-right: 3px;
+        }
+      }
+    }
+  }
+
+  .cta-line__link {
+    a {
+      background: #29cc24;
+      color: $color-white;
+
+      &:hover {
+        background: #209b1c;
+      }
+    }
+  }
+}
