@@ -58,7 +58,7 @@ mix.options({
   autoprefixer: {
     options: {
       browsers: [
-        'last 2 versions',
+        '> 1%, last 8 versions, Firefox ESR, ie > 8',
       ]
     }
   }
