@@ -58,11 +58,13 @@ $font-en: 'Alegreya Sans SC', sans-serif;
 
 //hover
 %hover-effect_opacity {
-  transition: .4s ease;
+  transition: .24s ease;
 
-  &:hover {
-    opacity: .5;
-    transition: .4s ease;
+  @media (--md) {
+    &:hover {
+      opacity: .8;
+      transition: .24s ease;
+    }
   }
 }
 
@@ -73,49 +75,84 @@ $font-en: 'Alegreya Sans SC', sans-serif;
 
 //section margin
 %section___margin {
-  margin: 50px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
 
   @media (--sm) {
-    margin: 80px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   @media (--md) {
-    margin: 100px 0;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}
+
+%anchor___margin {
+  margin: -60px 0 0;
+  padding: 80px 0 0;
+
+  @media (--xl) {
+    margin: -100px 0 0;
+    padding: 160px 0 0;
   }
 }
 
 //section padding
 %section___padding {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
 
   @media (--sm) {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   @media (--lg) {
-    padding: 70px 0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+%secton___outer {
+  padding: 20px;
+
+  @media (--md) {
+    padding: 40px;
+  }
+
+  @media (--lg) {
+    padding: 70px 50px;
   }
 }
 
 //section-title margin
-%m-section-title___margin {
-  margin: 40px 0 30px;
-  text-align: center;
+%section-title___margin {
+  margin-bottom: 25px;
 
   @media (--md) {
-    margin: 80px 0 45px;
+    margin-bottom: 40px;
   }
 
-  @media (--lg) {
-    margin: 100px 0 50px;
+  @media (--xl) {
+    margin-bottom: 60px;
   }
 }
 
 //block-title margin
-%m-block-title___margin {
-  margin-bottom: 10px;
+%section-heading___margin {
+  margin-bottom: 15px;
+
+  @media (--sm) {
+    margin-bottom: 20px;
+  }
 
   @media (--md) {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+  }
+
+  @media (--lg) {
+    margin-bottom: 55px;
   }
 }

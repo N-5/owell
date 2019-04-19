@@ -7,30 +7,32 @@
       <h1 class="top-hero__title">豊富な解決実績<br>独自の調査<br>あなたを解決まで導きます</h1>
       <div class="top-hero__lead">ご依頼主様が相談しやすい、<br class="u-sm__max">手数料0円や成果報酬プランなどをご用意！<br>まずはお気軽にご相談ください。</div>
       <div class="top-hero-search">
-        <div class="top-hero-search__item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-hero__search_1.png" alt=""></div>
-        <div class="top-hero-search__item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-hero__search_2.png" alt=""></div>
-        <div class="top-hero-search__item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-hero__search_3.png" alt=""></div>
-        <div class="top-hero-search__item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-hero__search_4.png" alt=""></div>
+        <div class="top-hero-search__item"><a href="<?php echo home_url(); ?>/item/cheating/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-hero__search_1.png" alt="浮気、不調査"></a></div>
+        <div class="top-hero-search__item"><a href="<?php echo home_url(); ?>/item/personal/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-hero__search_2.png" alt="身元、身辺調査"></a></div>
+        <div class="top-hero-search__item"><a href="<?php echo home_url(); ?>/item/location/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-hero__search_3.png" alt="行方調査"></a></div>
+        <div class="top-hero-search__item"><a href="<?php echo home_url(); ?>/item/other/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-hero__search_4.png" alt="その他調査"></a></div>
       </div>
     </div>
   </section>
  
   <section class="cta">
     <div class="l-container">
-      <div class="cta-inner">
-        <div class="cta-line">
-          <div class="cta-heading">今すぐご連絡！</div>
-          <div class="cta-line__link cta-btn">
-            <a href=""><i class="m-icon m-icon__line"><?php get_template_part('lib/line-icon'); ?></i><span>LINEでお問い合わせ</span></a>
+      <div class="cta-outer">
+        <div class="cta-inner">
+          <div class="cta-line">
+            <h2 class="cta-heading">今すぐご連絡！</h2>
+            <div class="cta-line__link cta-btn">
+              <a href="https://line.me/R/ti/p/%40ogb7100k" target="_blank"><i class="m-icon m-icon__line"><?php get_template_part('lib/line-icon'); ?></i><span>LINEでお問い合わせ</span></a>
+            </div>
           </div>
-        </div>
-        <div class="cta-call">
-          <div class="cta-heading">まずは電話相談！</div>
-          <div class="cta-call__title">お電話からのお問い合わせ</div>
-          <div class="cta-call__call">
-            <div class="cta-call__time">24時間受付<br>年中無休</div>
-            <div class="cta-call__number">
-              <a href="tel:0120871877"><i class="m-icon m-icon__call"><?php get_template_part('lib/call-icon'); ?></i>0120-871-877</a>
+          <div class="cta-call">
+            <h2 class="cta-heading">まずは電話相談！</h2>
+            <h3 class="cta-call__title">お電話からのお問い合わせ</h3>
+            <div class="cta-call__call">
+              <div class="cta-call__time">24時間受付<br>年中無休</div>
+              <div class="cta-call__number">
+                <a href="tel:0120871877"><i class="m-icon m-icon__call"><?php get_template_part('lib/call-icon'); ?></i>0120-871-877</a>
+              </div>
             </div>
           </div>
         </div>
@@ -41,8 +43,8 @@
   <section class="top-reason">
     <div class="l-container">
       <div class="top-heading__back"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-heading-reason.png" alt="reason"></div>
-      <div class="top-reason__bg1"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason__bg1.png"></div>
-      <div class="top-reason__bg2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason__bg2.png"></div>
+      <div class="top-reason__bg1"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason__bg1.png" alt=""></div>
+      <div class="top-reason__bg2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason__bg2.png" alt=""></div>
       <h2 class="top-heading">
         <span class="jp">オーウェルが<br class="u-sm__max">選ばれる6つの理由</span>
         <span class="en">REASON</span>
@@ -50,7 +52,7 @@
       <div class="top-reason-list">
         <div class="top-reason-list__item">
           <div class="top-reason-list__top">
-            <div class="item-top__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason_1.png" alt=""></div>
+            <div class="item-top__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason_1.png" alt="安心の料金体制"></div>
             <h3 class="item-top__heading">
               <span class="en">FEE STRUCTURE</span>
               <span class="jp">安心の<br class="u-sm__max">料金体制</span>
@@ -62,7 +64,7 @@
         </div>
         <div class="top-reason-list__item">
           <div class="top-reason-list__top">
-            <div class="item-top__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason_2.png" alt=""></div>
+            <div class="item-top__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason_2.png" alt="法的に有効な報告書"></div>
             <h3 class="item-top__heading">
               <span class="en">LEGALLY EFFECTIVE</span>
               <span class="jp">法的に有効な<br class="u-sm__max">報告書</span>
@@ -74,7 +76,7 @@
         </div>
         <div class="top-reason-list__item">
           <div class="top-reason-list__top">
-            <div class="item-top__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason_3.png" alt=""></div>
+            <div class="item-top__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason_3.png" alt="業界トップレベルの調査力"></div>
             <h3 class="item-top__heading">
               <span class="en">SURVEY FORCE</span>
               <span class="jp">業界トップ<br class="u-sm__max">レベルの調査力</span>
@@ -86,7 +88,7 @@
         </div>
         <div class="top-reason-list__item">
           <div class="top-reason-list__top">
-            <div class="item-top__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason_4.png" alt=""></div>
+            <div class="item-top__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason_4.png" alt="徹底したアフターサービス"></div>
             <h3 class="item-top__heading">
               <span class="en">AFTER SALES SERVICE</span>
               <span class="jp">徹底した<br class="u-sm__max">アフターサービス</span>
@@ -98,7 +100,7 @@
         </div>
         <div class="top-reason-list__item">
           <div class="top-reason-list__top">
-            <div class="item-top__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason_5.png" alt=""></div>
+            <div class="item-top__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason_5.png" alt="安心のマンツーマン体制"></div>
             <h3 class="item-top__heading">
               <span class="en">ONE-TO-ONE SYSTEM</span>
               <span class="jp">安心のマンツーマン体制</span>
@@ -110,7 +112,7 @@
         </div>
         <div class="top-reason-list__item">
           <div class="top-reason-list__top">
-            <div class="item-top__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason_6.png" alt=""></div>
+            <div class="item-top__icon"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-reason_6.png" alt="強力なコネクション"></div>
             <h3 class="item-top__heading">
               <span class="en">STRONG CONNECTION</span>
               <span class="jp">強力な<br class="u-sm__max">コネクション</span>
@@ -127,7 +129,7 @@
   <section class="top-price">
     <div class="l-container">
       <div class="top-heading__back"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-heading-legal.png" alt="Legal fees"></div>
-      <div class="top-price__bg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-price__bg.png"></div>
+      <div class="top-price__bg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-price__bg.png" alt=""></div>
       <h2 class="top-heading">
         <div class="jp">料金案内</div>
         <div class="en">LEGAL FEES</div>
@@ -156,7 +158,7 @@
           </div>
         </div>
       </div>
-      <div class="m-link m-link__border"><a href="<?php echo home_url(); ?>"><span>料金一覧へ</span><i class="m-arrow m-arrow__grey"></i></a>
+      <div class="m-link m-link__border"><a href="<?php echo home_url(); ?>/price/"><span>料金一覧へ</span><i class="m-arrow m-arrow__grey"></i></a>
       </div>
     </div>
   </section>
@@ -174,26 +176,26 @@
         <div class="top-plan-list__item">成功条件は相違がないように<br><span>事前に取り決めます!</span></div>
         <div class="top-plan-list__item">調査の可否は<span>お電話１本</span>で<br>お答えします!</div>
       </div>
-      <div class="m-link"><a href="<?php echo home_url(); ?>"><span>お問い合わせはこちら</span><i class="m-arrow m-arrow__grey"></i></a></div>
+      <div class="m-link"><a href="<?php echo home_url(); ?>/contact/"><span>お問い合わせはこちら</span><i class="m-arrow m-arrow__grey"></i></a></div>
     </div>
   </section>
 
   <section class="top-case">
     <div class="l-container">
       <div class="top-heading__back"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-heading-case.png" alt="case"></div>
-      <div class="top-case__bg1"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case__bg1.png"></div>
-      <div class="top-case__bg2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case__bg2.png"></div>
+      <div class="top-case__bg1"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case__bg1.png" alt=""></div>
+      <div class="top-case__bg2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case__bg2.png" alt=""></div>
       <h2 class="top-heading">
         <div class="jp">事例</div>
         <div class="en">CASE STUDIES</div>
       </h2>
       <div class="top-case-list">
         <div class="top-case-list__item">
-          <div class="top-case-list__number u-md__max"><span>CASE <small>01</small></span></div>
+          <div class="m-case-number  u-md__max"><span>CASE <small>01</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_1.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_1.jpg" alt=""></div>
             <div class="top-case-list__detail">
-              <div class="top-case-list__number u-md"><span>CASE <small>01</small></span></div>
+              <div class="m-case-number  u-md"><span>CASE <small>01</small></span></div>
               <h3 class="top-case-list__heading">
                 <div class="title">結婚15年目の浮気発覚。カウンセラーの元、<br class="u-md">離婚をせずに夫婦としての再出発を決意。</div>
                 <div class="person">(石川県 40代後半女性)</div>
@@ -214,11 +216,11 @@
           </div>
         </div>
         <div class="top-case-list__item">
-          <div class="top-case-list__number u-md__max"><span>CASE <small>02</small></span></div>
+          <div class="m-case-number  u-md__max"><span>CASE <small>02</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_2.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_2.jpg" alt=""></div>
             <div class="top-case-list__detail">
-              <div class="top-case-list__number u-md"><span>CASE <small>02</small></span></div>
+              <div class="m-case-number  u-md"><span>CASE <small>02</small></span></div>
               <h3 class="top-case-list__heading">
                 <div class="title">大事な娘の結婚相手はどんな人物か。<br>安心してお嫁に出す為に依頼を決断。</div>
                 <div class="person">(石川県 60歳前後夫婦)</div>
@@ -239,11 +241,11 @@
           </div>
         </div>
         <div class="top-case-list__item">
-          <div class="top-case-list__number u-md__max"><span>CASE <small>03</small></span></div>
+          <div class="m-case-number u-md__max"><span>CASE <small>03</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_3.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_3.jpg" alt=""></div>
             <div class="top-case-list__detail">
-              <div class="top-case-list__number u-md"><span>CASE <small>03</small></span></div>
+              <div class="m-case-number u-md"><span>CASE <small>03</small></span></div>
               <h3 class="top-case-list__heading">
                 <div class="title">未成年の息子が家出。当社独自の調査方法で<br class="u-md">短期間での発見、保護へ。</div>
                 <div class="person">(関東地方 40代夫婦)</div>
@@ -270,7 +272,7 @@
   <section class="top-service">
     <div class="l-container">
       <div class="top-heading__back"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-heading-service.png" alt="service"></div>
-      <div class="top-service__bg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service__bg.png"></div>
+      <div class="top-service__bg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service__bg.png" alt=""></div>
       <h2 class="top-heading">
         <div class="jp">調査項目</div>
         <div class="en">SERVICE</div>
@@ -283,9 +285,9 @@
               <span class="en">CHEATING SURVEY</span>
             </h3>
             <div class="item-detail__text">この業界において一番多い相談が浮気、不倫の問題です。はっきり申し上げると何かをきっかけにパートナーを疑ったケースは９０パーセント以上の確率でクロだとお考え下さい。</div>
-            <div class="m-more"><a href="">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
+            <div class="m-more"><a href="<?php echo home_url(); ?>/item/cheating/">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
           </div>
-          <div class="item-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service_1.jpg"></div>
+          <div class="item-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service_1.jpg" alt="不倫・浮気調査"></div>
         </div>
         <div class="item item-reverse">
           <div class="item-detail">
@@ -294,9 +296,9 @@
               <span class="en">PERSONAL SURVEY</span>
             </h3>
             <div class="item-detail__text">原因は晩婚化など考えられる要素は多くありますが、近年、婚前調査は増え続けています結婚は人生における最大の分岐点だと考えております。経歴に嘘なないのか、犯罪歴は？借金は？時すでに遅し、、と後で悔やむことの無いように今できることのお手伝いをさせて下さい。</div>
-            <div class="m-more"><a href="">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
+            <div class="m-more"><a href="<?php echo home_url(); ?>/item/personal/">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
           </div>
-          <div class="item-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service_2.jpg"></div>
+          <div class="item-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service_2.jpg" alt="婚前調査身元・身辺調査"></div>
         </div>
         <div class="item">
           <div class="item-detail">
@@ -305,9 +307,9 @@
               <span class="en">LOCATION SURVEY</span>
             </h3>
             <div class="item-detail__text">弊社に依頼される依頼者様の探したい相手は家出をした家族、連絡の取れなくなった友人初恋の人、お金を貸して返済の無いまま行方が分からなくなった相手など様々ですが、家出人を含め1年間の行方不明者数は8万人を超えるとされています。</div>
-            <div class="m-more"><a href="">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
+            <div class="m-more"><a href="<?php echo home_url(); ?>/item/location/">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
           </div>
-          <div class="item-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service_3.jpg"></div>
+          <div class="item-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service_3.jpg" alt="行方・所在調査"></div>
         </div>
         <div class="item item-reverse">
           <div class="item-detail">
@@ -316,9 +318,9 @@
               <span class="en">SURVEY LIST</span>
             </h3>
             <div class="item-detail__text">他にも様々な調査に対応しております。盗聴器・盗撮器の発見や各種鑑定調査は勿論、企業様向けの雇用・信用調査、各種データ調査も行っております。他社に断れた調査依頼など、業界トップレベルの可能調査数を誇る当社に一度お問い合わせください。</div>
-            <div class="m-more"><a href="">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
+            <div class="m-more"><a href="<?php echo home_url(); ?>/item/">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
           </div>
-          <div class="item-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service_4.jpg"></div>
+          <div class="item-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service_4.jpg" alt="調査項目一覧"></div>
         </div>
       </div>
     </div>
@@ -331,39 +333,58 @@
         <div class="en">BLOG</div>
       </h2>
       <div class="top-news-list">
+        <?php
+        $args = array(
+          'post_type' => 'blog',
+          'post_status' => 'publish',
+          'posts_per_page' => 3
+        );
+        $the_query = new WP_Query($args);
+        ?>
+        <?php if($the_query->have_posts()): while($the_query->have_posts()): $the_query->the_post(); ?>
         <article class="top-news-list__item">
           <div class="top-news-list__image">
-            <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-news__thumbnail.jpg"></a></div>
+            <a href="<?php the_permalink() ?>">
+              <?php if (has_post_thumbnail()) : ?>
+              <?php $title= get_the_title(); the_post_thumbnail('custom_medium' , array( 'alt' =>$title, 'title' => $title)); ?>
+              <?php else : ?>
+              <img src="<?php echo get_template_directory_uri(); ?>/img/top/top-news__thumbnail.jpg" alt="NoImage" />
+              <?php endif ; ?>
+            </a>
+          </div>
           <header>
-            <time class="top-news-list__time">2019年01月01日</time>
-            <h3 class="top-news-list__title"><a href="">タイトルが入ります。タイトルが入ります。</a></h3>
-            <div class="top-news-list__category"><a href="">カテゴリ</a></div>
+            <time class="top-news-list__time"><?php the_date("Y年n月j日"); ?></time>
+            <h3 class="top-news-list__title">
+              <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+            </h3>
+            <div class="top-news-list-category">
+              <?php $custom_post_tag = 'blog-category';
+              $custom_post_tag_terms = wp_get_object_terms($post->ID, $custom_post_tag);
+              if(!empty($custom_post_tag_terms)){
+                if(!is_wp_error( $custom_post_tag_terms )){
+                  foreach($custom_post_tag_terms as $term){
+                    $tag_term_link = get_term_link($term->slug, $custom_post_tag);
+                    $tag_term_name = $term->name;
+                    echo '<div class="top-news-list-category__item"><a href="'.get_term_link($term).'">'.$tag_term_name.'</a></div>';
+                  }
+                }
+              }
+              ?>
+            </div>
           </header>
-          <p class="top-news-list__text">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
-          <div class="m-more"><a href="">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
+          <div class="top-news-list__text">
+            <?php
+            if(mb_strlen($post->post_content, 'UTF-8')>60){
+              $content= mb_substr($post->post_content, 0, 60, 'UTF-8');
+              echo $content.'...';
+            }else{
+              echo $post->post_content;
+            }
+            ?>
+          </div>
+          <div class="m-more"><a href="<?php the_permalink() ?>">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
         </article>
-        <article class="top-news-list__item">
-          <div class="top-news-list__image">
-            <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-news__thumbnail.jpg"></a></div>
-          <header>
-            <time class="top-news-list__time">2019年01月01日</time>
-            <h3 class="top-news-list__title"><a href="">タイトルが入ります。タイトルが入ります。</a></h3>
-            <div class="top-news-list__category"><a href="">カテゴリ</a></div>
-          </header>
-          <p class="top-news-list__text">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
-          <div class="m-more"><a href="">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
-        </article>
-        <article class="top-news-list__item">
-          <div class="top-news-list__image">
-            <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-news__thumbnail.jpg"></a></div>
-          <header>
-            <time class="top-news-list__time">2019年01月01日</time>
-            <h3 class="top-news-list__title"><a href="">タイトルが入ります。タイトルが入ります。</a></h3>
-            <div class="top-news-list__category"><a href="">カテゴリ</a></div>
-          </header>
-          <p class="top-news-list__text">ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
-          <div class="m-more"><a href="">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
-        </article>
+        <?php endwhile; endif; ?>
       </div>
       <div class="m-link"><a href="<?php echo home_url(); ?>/blog/"><span>お知らせ一覧へ</span><i class="m-arrow m-arrow__grey"></i></a></div>
     </div>
@@ -377,12 +398,12 @@
       </h2>
       <div class="top-area__lead">オーウェルは北陸を中心に全国を<br class="u-sm__max">対象とし、調査依頼を承っております。</div>
       <div class="top-area-honsya">
-        <div class="top-area-honsya__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-area.jpg" alt=""></div>
+        <div class="top-area-honsya__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-area.jpg" alt="金沢本社外観"></div>
         <div class="top-area-honsya__detial">
           <div class="top-area__heading">金沢本社</div>
           <div class="top-area-honsya__address">〒920-0901<br>金沢市彦三町1-2-1 アソルティ金沢彦三</div>
           <div class="top-area-honsya__google">
-            <a href="https://goo.gl/maps/J8pZLwXeXKK2" target="_blank">GOOGLEMAP<i class="m-arrow m-arrow__orange"></i></a>
+            <a href="https://goo.gl/maps/J8pZLwXeXKK2" target="_blank">GOOGLE MAP<i class="m-arrow m-arrow__orange"></i></a>
           </div>
         </div>
       </div>

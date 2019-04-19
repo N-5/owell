@@ -4,7 +4,7 @@
 }
 
 #top {
-  background: $color-grey-light;
+  background-color: $color-grey-light;
 
   .cta {
     margin: -100px auto 0;
@@ -17,7 +17,7 @@
   .top-price {
     @extend %section___padding;
 
-    background: $color-main;
+    background-color: $color-main;
 
     .top-heading {
       .jp,
@@ -30,7 +30,7 @@
   .top-plan {
     @extend %section___padding;
 
-    background: $color-white;
+    background-color: $color-white;
   }
 
   .top-case {
@@ -46,10 +46,10 @@
   .top-news {
     @extend %section___padding;
 
-    background: $color-white;
+    background-color: $color-white;
 
     @media (--md) {
-      background: #f5f5f5;
+      background-color: #f5f5f5;
     }
   }
 
@@ -61,7 +61,7 @@
 }
 
 #survey {
-  background: $color-grey-light;
+  background-color: $color-grey-light;
 
   .page-title {
     background-image: url('../img/item/page-title.jpg');
@@ -69,5 +69,395 @@
 
   .cta {
     @extend %section___padding;
+  }
+}
+
+#company {
+  background-color: $color-grey-light;
+
+  .page-title {
+    background-image: url('../img/company/page-title.jpg');
+  }
+
+  .company-overview {
+    padding-bottom: 30px;
+
+    @media (--md) {
+      padding-bottom: 50px;
+    }
+
+    @media (--lg) {
+      padding-bottom: 70px;
+    }
+
+    .section-heading {
+      @extend %section-heading___margin;
+    }
+  }
+
+  .company-locations {
+    @extend %section___padding;
+
+    .section-heading {
+      @extend %section-heading___margin;
+    }
+  }
+
+  .company-gallery {
+    @extend %section___padding;
+
+    background-color: $color-white;
+  }
+
+  .company-privacy {
+    @extend %section___padding;
+
+    background-color: $color-white;
+
+    .section-heading {
+      @extend %section-heading___margin;
+    }
+  }
+
+  > .cta {
+    @extend %section___padding;
+  }
+}
+
+#archive-blog {
+  background-color: $color-grey-light;
+
+  .page-title {
+    background-image: url('../img/blog/page-title.jpg');
+  }
+
+  .pagination,
+  .archive-blog-monthly {
+    @extend %section___padding;
+  }
+}
+
+#single-blog {
+  background-color: $color-grey-light;
+
+  .page-title {
+    background-image: url('../img/blog/page-title.jpg');
+  }
+}
+
+#price {
+  background-color: $color-grey-light;
+
+  .page-title {
+    background-image: url('../img/price/page-title.jpg');
+  }
+
+  .price-about {
+    padding-bottom: 30px;
+
+    @media (--md) {
+      padding-bottom: 50px;
+    }
+
+    @media (--lg) {
+      padding-bottom: 70px;
+    }
+  }
+
+  .price-charges {
+    @extend %section___padding;
+
+    .section-heading {
+      @extend %section-heading___margin;
+    }
+  }
+
+  .price-guarantee {
+    @extend %section___padding;
+
+    .section-heading {
+      @extend %section-heading___margin;
+    }
+  }
+
+  .price-cooling {
+    @extend %section___padding;
+
+    background-color: $color-white;
+
+    .section-heading {
+      @extend %section-heading___margin;
+    }
+  }
+
+  .price-customer {
+    @extend %section___margin;
+
+    .section-heading {
+      @extend %section-heading___margin;
+    }
+  }
+
+  .price-plan {
+    @extend %section___margin;
+  }
+
+  .price-survey {
+    @extend %section___margin;
+  }
+
+  > .cta {
+    padding-bottom: 40px;
+
+    @media (--sm) {
+      padding-bottom: 50px;
+    }
+
+    @media (--lg) {
+      padding-bottom: 70px;
+    }
+  }
+}
+
+#faq {
+  background-color: $color-grey-light;
+
+  .section-heading {
+    @extend %section-heading___margin;
+  }
+
+  .faq-question__outer {
+    @extend %secton___outer;
+
+    background-color: $color-white;
+  }
+
+  .page-title {
+    background-image: url('../img/faq/page-title.jpg');
+  }
+
+  > .cta {
+    @extend %section___padding;
+  }
+}
+
+#contact {
+  background-color: $color-grey-light;
+
+  .page-title {
+    background-image: url('../img/contact/page-title.jpg');
+  }
+
+  .contact-form__outer {
+    @extend %secton___outer;
+  }
+
+  .contact-form {
+    @extend %section___padding;
+  }
+}
+
+#contactcomplete {
+  padding-bottom: 40px;
+  background-color: $color-grey-light;
+
+  .page-title {
+    background-image: url('../img/contact/page-title.jpg');
+  }
+
+  @media (--sm) {
+    padding-bottom: 50px;
+  }
+
+  @media (--lg) {
+    padding-bottom: 70px;
+  }
+
+  .contact-complete__outer {
+    @extend %secton___outer;
+  }
+}
+
+#cheating {
+  .page-title {
+    background-image: url('../img/cheating/page-title.jpg');
+  }
+}
+
+#appraisal {
+  .page-title {
+    background-image: url('../img/appraisal/page-title.jpg');
+  }
+}
+
+#harassment {
+  .page-title {
+    background-image: url('../img/harassment/page-title.jpg');
+  }
+}
+
+#credence {
+  .page-title {
+    background-image: url('../img/credence/page-title.jpg');
+  }
+}
+
+#location {
+  .page-title {
+    background-image: url('../img/location/page-title.jpg');
+  }
+}
+
+#personal {
+  .page-title {
+    background-image: url('../img/personal/page-title.jpg');
+  }
+}
+
+#wiretap {
+  .page-title {
+    background-image: url('../img/wiretap/page-title.jpg');
+  }
+}
+
+#other {
+  .page-title {
+    background-image: url('../img/other/page-title.jpg');
+  }
+}
+
+#cheating,
+#appraisal,
+#credence,
+#harassment,
+#location,
+#personal,
+#wiretap,
+#other {
+  background: $color-grey-light;
+
+  .survey-reason {
+    @extend %section___padding;
+
+    .section-title {
+      @extend %section-title___margin;
+    }
+
+    .cta {
+      margin-top: 30px;
+
+      @media (--md) {
+        margin-top: 50px;
+      }
+
+      @media (--lg) {
+        margin-top: 70px;
+      }
+    }
+  }
+
+  .survey-point {
+    .l-container {
+      @extend %section___padding;
+    }
+
+    .servery-point__outer {
+      background-color: $color-white;
+    }
+  }
+
+  .top-case {
+    @extend %section___padding;
+
+    background-image: url("../img/common/font-case.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: calc(55% - 100px) 30px;
+
+    @media (--sm) {
+      background-size: auto;
+      background-position: calc(50% - 190px) 0;
+    }
+
+    @media (--lg) {
+      background-position: calc(50% - 340px) calc(0% - -30px);
+    }
+
+    .section-title {
+      @extend %section-title___margin;
+    }
+
+    .top-case-list__price .price {
+      color: $color-main;
+    }
+
+    > .cta {
+      padding-top: 40px;
+
+      @media (--md) {
+        padding-top: 50px;
+      }
+
+      @media (--lg) {
+        padding-top: 70px;
+      }
+    }
+  }
+
+  .survey-flow {
+    @extend %section___padding;
+
+    background-color: $color-white;
+
+    .section-title {
+      @extend %section-title___margin;
+    }
+  }
+
+  .survey-price {
+    @extend %section___padding;
+
+    .survey-price__outer {
+      background-color: $color-white;
+      padding: 30px 20px;
+
+      @media (--md) {
+        padding: 70px 50px;
+      }
+    }
+
+    .section-title {
+      @extend %section-title___margin;
+    }
+  }
+
+  .survey-guarantee {
+    .section-title {
+      @extend %section-title___margin;
+    }
+  }
+
+  .survey-plan {
+    @extend %section___padding;
+  }
+
+  .survey-faq {
+    .section-title {
+      @extend %section-title___margin;
+    }
+  }
+
+  > .cta {
+    @extend %section___padding;
+  }
+}
+
+#error {
+  .page-title {
+    background-image: url('../img/appraisal/page-title.jpg');
+  }
+
+  .page-lead__text {
+    padding-bottom: 30px;
   }
 }

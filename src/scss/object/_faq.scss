@@ -1,0 +1,133 @@
+.faq-question-list {
+  position: relative;
+}
+
+.faq-question-list__item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #9f9f9f;
+
+  @media (--md) {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.faq-question-list__question {
+  display: flex;
+  margin-bottom: 20px;
+
+  @media (--md) {
+    margin-bottom: 30px;
+  }
+
+  .heading {
+    width: 90%;
+    font-weight: bold;
+    line-height: (24/16);
+
+    @media (--lg) {
+      font-size: 18px;
+    }
+  }
+
+  .question {
+    position: relative;
+    display: inline-block;
+    margin-right: 5%;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    background: $color-main;
+
+    @media (--md) {
+      margin-right: 20px;
+    }
+
+    span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-family: $font-en;
+      color: $color-white;
+      transform: translate(-50%, -50%);
+
+      @media (--md) {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.faq-question-list__answer {
+  display: flex;
+
+  .content {
+    margin-top: -6px;
+    width: 90%;
+    font-size: 12px;
+    line-height: (24/16);
+
+    @media (--md) {
+      margin-top: 0;
+      font-size: 14px;
+    }
+
+    ul {
+      margin-top: 30px;
+
+      li {
+        position: relative;
+        margin-bottom: 8px;
+
+        &::before {
+          content: '・';
+          position: absolute;
+          top: 0;
+          left: -1em;
+          color: $color-main;
+        }
+      }
+    }
+  }
+
+  .answer {
+    position: relative;
+    display: inline-block;
+    margin-right: 5%;
+    width: 30px;
+    height: 30px;
+    background: $color-grey;
+
+    @media (--md) {
+      margin-right: 20px;
+    }
+
+    span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-family: $font-en;
+      color: $color-white;
+      transform: translate(-50%, -50%);
+
+      @media (--md) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  &.align-c {
+    align-items: center;
+
+    .content {
+      margin-top: 0;
+    }
+  }
+}

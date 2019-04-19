@@ -1,3 +1,11 @@
+.u-s {
+  display: none;
+
+  @media (--s) {
+    display: block;
+  }
+}
+
 .u-sm {
   display: none;
 
@@ -26,6 +34,14 @@
   display: none;
 
   @media (--xl) {
+    display: block;
+  }
+}
+
+.u-s__max {
+  display: none;
+
+  @media (--s_max) {
     display: block;
   }
 }

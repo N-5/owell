@@ -6,7 +6,7 @@
       </div>
       <div class="footer-sitemap-list">
         <div class="footer-sitemap-list__item"><a href="<?php echo home_url(); ?>">HOME</a></div>
-        <div class="footer-sitemap-list__item"><a href="<?php echo home_url(); ?>">調査項目</a></div>
+        <div class="footer-sitemap-list__item"><a href="<?php echo home_url(); ?>/item/">調査項目</a></div>
         <div class="footer-sitemap-list__item"><a href="<?php echo home_url(); ?>/price/">料金について</a></div>
         <div class="footer-sitemap-list__item"><a href="<?php echo home_url(); ?>/company/">会社情報</a></div>
         <div class="footer-sitemap-list__item"><a href="<?php echo home_url(); ?>/contact/">お問い合わせ</a></div>
@@ -36,7 +36,7 @@
       </div>
       <div class="footer-sitemap-splist">
         <div class="footer-sitemap-list__item"><a href="<?php echo home_url(); ?>">HOME</a></div>
-        <div class="footer-sitemap-list__item"><a href="<?php echo home_url(); ?>">調査項目</a></div>
+        <div class="footer-sitemap-list__item"><a href="<?php echo home_url(); ?>/item/">調査項目</a></div>
         <div class="footer-sitemap-list__item"><a href="<?php echo home_url(); ?>/price/">料金について</a></div>
         <div class="footer-sitemap-list__item"><a href="<?php echo home_url(); ?>/company/">会社情報</a></div>
         <div class="footer-sitemap-list__item"><a href="<?php echo home_url(); ?>/contact/">お問い合わせ</a></div>

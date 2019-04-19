@@ -1,0 +1,350 @@
+.price-about {
+  display: block;
+}
+
+.price-about__heading {
+  position: relative;
+  padding: 6px 0;
+  border-radius: 30px;
+  background: $color-main;
+  color: $color-white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+
+  @media (--s) {
+    font-size: 16px;
+  }
+
+  @media (--md) {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 15px 0 15px;
+    border-color: $color-main transparent transparent transparent;
+    transform: translate(-50%, 0);
+  }
+}
+
+.price-about__text {
+  @extend %justify;
+
+  font-size: 14px;
+  line-height: (24/14);
+}
+
+.price-about__outer {
+  @extend %secton___outer;
+
+  background: $color-white;
+}
+
+.price-about__money {
+  text-align: center;
+  color: $color-main;
+  font-size: 120px;
+  font-weight: bold;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+
+  small {
+    font-size: 65px;
+  }
+}
+
+.price-charges {
+  background-color: $color-white;
+  background-image: url("../img/common/font-charges.png");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: calc(-55% - -190px) 0;
+
+  @media (--sm) {
+    background-size: auto;
+    background-position: calc(50% - -190px) 0;
+  }
+
+  @media (--lg) {
+    background-position: calc(50% - -280px) calc(50% - 250px);
+  }
+}
+
+.price-charges-list {
+  @media (--md) {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+}
+
+.price-charges-list__item {
+  margin-bottom: 20px;
+  padding: 30px 20px;
+  background: $color-grey-light;
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.1);
+
+  @media (--md) {
+    width: 32%;
+    margin-bottom: 0;
+    padding: 20px;
+  }
+
+  @media (--lg) {
+    width: 30%;
+    padding: 60px 35px;
+  }
+}
+
+.price-charges-option {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 55px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 24px 0 24px;
+    border-color: $color-main transparent transparent transparent;
+    transform: translate(-50%, 0);
+
+    @media (--md) {
+      border-width: 24px 27px 0 27px;
+    }
+  }
+}
+
+.price-charges-option__item {
+  font-size: 12px;
+  margin-right: 10px;
+
+  @media (--md) {
+    width: 46%;
+    font-size: 10px;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+
+  @media (--lg) {
+    font-size: 11px; 
+  }
+
+  @media (--xl) {
+    font-size: 12px;
+  }
+
+
+
+  &::before {
+    content: '・';
+    color: $color-main;
+    font-weight: bold;
+  }
+}
+
+.price-charges-list__result {
+  padding: 2px 0;
+  background: $color-white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+
+  span {
+    font-size: 30px;
+    letter-spacing: -0.1em;
+    color: $color-main;
+
+    @media (--lg) {
+      font-size: 38px;
+    }
+
+    small {
+      font-size: 20px;
+
+      @media (--lg) {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+.price-charges-list__text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 12px;
+
+  @media (--sm) {
+    font-size: 12px;
+  }
+
+  @media (--lg) {
+    margin-top: 25px;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+.price-charges__caution {
+  margin-top: 20px;
+  color: #9f9f9f;
+  font-size: 12px;
+
+  @media (--md) {
+    font-size: 14px;
+  }
+}
+
+.price-cooling__text {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: (24/14);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.price-customer__outer {
+  @extend %secton___outer;
+
+  background-color: $color-white;
+  background-image: url("../img/common/font-customer.png");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: right 0;
+
+  @media (--sm) {
+    background-size: 60%;
+  }
+
+  @media (--lg) {
+    background-size: auto;
+    background-position: right -10px;
+  }
+}
+
+.price-customer__text {
+  font-size: 14px;
+  line-height: (24/14);
+}
+
+.price-plan {
+  .servery-point__ribon {
+    width: 80%;
+    margin: 0 auto -40px;
+
+    @media (--lg) {
+      width: 90%;
+      margin: 0 auto -50px;
+    }
+  }
+}
+
+.price-survery__outer {
+  @extend %secton___outer;
+
+  background-color: $color-white;
+
+  @media (--lg) {
+    padding: 50px;
+  }
+
+  .m-link {
+    margin-top: 15px;
+
+    @media (--md) {
+      margin-top: 30px;
+    }
+  }
+}
+
+.price-survery__fee {
+  margin-top: 15px;
+  padding: 6px 0;
+  border: 2px solid $color-grey;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+
+  @media (--md) {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .number {
+    margin-right: 4px;
+    color: $color-main;
+    font-size: 24px;
+
+    @media (--md) {
+      font-size: 36px;
+    }
+
+    small {
+      font-size: 18px;
+
+      @media (--md) {
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+.price-survey__diff {
+  margin-top: 15px;
+  font-weight: bold;
+  color: $color-black;
+  font-size: 16px;
+  text-align: left;
+
+  @media (--md) {
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  br {
+    display: none;
+
+    @media (--md) {
+      display: block;
+    }
+  }
+}
+
+.price-guarantee {
+  background-image: url("../img/common/font-security.png");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: right 0;
+
+  @media (--sm) {
+    background-size: 50%;
+    background-position: calc(50% - -190px) 0;
+  }
+
+  @media (--lg) {
+    background-size: auto;
+    background-position: calc(50% - -200px) calc(50% - 150px);
+  }
+}

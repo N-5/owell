@@ -104,7 +104,20 @@ add_theme_support('post-thumbnails');
 //custom img size
 if ( function_exists( 'add_image_size' ) ) {
   add_image_size( 'custom_small', 300, 180, true );
-  add_image_size( 'custom_medium', 600, 360, true );
+  add_image_size( 'custom_medium', 512, 288, true );
+}
+
+function is_child_of($pagename) {
+  if(is_page()) {
+    global $post;
+    if($post->ancestors) {
+      $root = $post->ancestors[count($post->ancestors) - 1];
+      $root_post = get_post($root);
+      $name = esc_attr($root_post->post_name);
+      if($pagename == $name) return true;
+    }
+  }
+  return false;
 }
 
 // Hide admin bar
@@ -138,18 +151,12 @@ function  pageNavigation () {
 
 //custom-post-type
 function implement_custom_posts($value='') {
-  $news = (object) array(
-    "slug" => "news",
-    "name" => "ニュース",
-    "has_archive" => true,
-  );
   $blog = (object) array(
     "slug" => "blog",
     "name" => "ブログ",
     "has_archive" => true,
   );
   $contents_array = [
-    $news,
     $blog
   ];
   foreach ($contents_array as $key => $value) {

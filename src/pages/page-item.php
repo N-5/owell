@@ -12,11 +12,7 @@ Template Name: item
     </h1>
   </section>
 
-  <div class="breadcrumb">
-    <div class="l-container">
-      <?php if(function_exists('bcn_display')) { bcn_display(); }?>
-    </div>
-  </div>
+  <?php get_template_part('lib/breadcrumb'); ?>
 
   <section class="page-lead">
     <div class="l-container">
@@ -43,7 +39,7 @@ Template Name: item
               </p>
             </div>
           </div>
-          <div class="m-link"><a href=""><span>浮気・不倫調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
+          <div class="m-link"><a href="<?php echo home_url(); ?>/item/cheating/"><span>浮気・不倫調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
         </div>
 
         <div class="survey-menu-list__item">
@@ -58,7 +54,7 @@ Template Name: item
               </p>
             </div>
           </div>
-          <div class="m-link"><a href=""><span>婚前調査、身元・身辺調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
+          <div class="m-link"><a href="<?php echo home_url(); ?>/item/personal/"><span>婚前調査、身元・身辺調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
         </div>
 
         <div class="survey-menu-list__item">
@@ -73,7 +69,7 @@ Template Name: item
               </p>
             </div>
           </div>
-          <div class="m-link"><a href=""><span>行方・所在調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
+          <div class="m-link"><a href="<?php echo home_url(); ?>/item/location/"><span>行方・所在調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
         </div>
 
         <div class="survey-menu-list__item">
@@ -88,7 +84,7 @@ Template Name: item
               </p>
             </div>
           </div>
-          <div class="m-link"><a href=""><span>盗聴、盗聴器の発見・除去の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
+          <div class="m-link"><a href="<?php echo home_url(); ?>/item/wiretap/"><span>盗聴、盗聴器の発見・除去の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
         </div>
 
         <div class="survey-menu-list__item">
@@ -103,7 +99,7 @@ Template Name: item
               </p>
             </div>
           </div>
-          <div class="m-link"><a href=""><span>嫌がらせ、ストーカー対策の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
+          <div class="m-link"><a href="<?php echo home_url(); ?>/item/harassment/"><span>嫌がらせ、ストーカー対策の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
         </div>
 
         <div class="survey-menu-list__item">
@@ -118,7 +114,7 @@ Template Name: item
               </p>
             </div>
           </div>
-          <div class="m-link"><a href=""><span>雇用・採用、信用調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
+          <div class="m-link"><a href="<?php echo home_url(); ?>/item/credence/"><span>雇用・採用、信用調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
         </div>
 
         <div class="survey-menu-list__item">
@@ -133,7 +129,7 @@ Template Name: item
               </p>
             </div>
           </div>
-          <div class="m-link"><a href=""><span>各種鑑定調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
+          <div class="m-link"><a href="<?php echo home_url(); ?>/item/appraisal/"><span>各種鑑定調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
         </div>
 
         <div class="survey-menu-list__item">
@@ -148,30 +144,11 @@ Template Name: item
               </p>
             </div>
           </div>
-          <div class="m-link"><a href=""><span>その他調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
+          <div class="m-link"><a href="<?php echo home_url(); ?>/item/other/"><span>その他調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
         </div>
       </div>
     </div>
   </section>
-
-  <section class="cta cta-bg">
-    <div class="l-container">
-      <div class="cta-inner">
-        <div class="cta-free">
-          <div class="cta-heading">お気軽にご相談してください</div>
-          <div class="cta-free__text">24時間365日ご相談無料</div>
-        </div>
-        <div class="cta-call">
-          <div class="cta-call__title">お電話からのお問い合わせ</div>
-          <div class="cta-call__call">
-            <div class="cta-call__time">24時間受付<br>年中無休</div>
-            <div class="cta-call__number">
-              <a href="tel:0120871877"><i class="m-icon m-icon__call"><?php get_template_part('lib/call-icon'); ?></i>0120-871-877</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <?php get_template_part('lib/cta-section'); ?>
 </main>
 <?php get_footer(); ?>

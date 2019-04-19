@@ -12,8 +12,13 @@
     overflow: hidden;
     background: $color-grey;
     color: $color-white;
+    font-family: $font-en;
     font-weight: bold;
-    height: 80px;
+    height: 60px;
+
+    @media (--sm) {
+      height: 80px;
+    }
 
     span {
       position: relative;
@@ -62,6 +67,14 @@
 
       &:hover {
         border: 2px solid $color-white;
+      }
+    }
+  }
+
+  &__en {
+    @media (--xl) {
+      span {
+        font-size: 18px !important;
       }
     }
   }
@@ -209,5 +222,36 @@
     @media (--lg) {
       font-size: 20px;
     }
+  }
+}
+
+.m-case-number {
+  text-align: center;
+
+  @media (--md) {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  span {
+    display: inline-block;
+    background: $color-grey;
+    font-family: $font-en;
+    color: $color-white;
+    border: 3px solid #eee;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 40px;
+    line-height: 1;
+    text-align: center;
+
+    @media (--md) {
+      padding: 10px 20px;
+    }
+  }
+
+  small {
+    font-size: 18px;
   }
 }

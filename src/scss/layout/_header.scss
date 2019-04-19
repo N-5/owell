@@ -217,6 +217,22 @@
       }
 
       &:hover {
+        @media (--md) {
+          opacity: .6;
+        }
+
+        @media (--xl) {
+          opacity: 1;
+        }
+
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+
+    &.active-page {
+      a {
         &::after {
           width: 100%;
         }
@@ -236,12 +252,18 @@
 
   .header-navigation__call,
   .header-navigation__contact {
+    @extend %transition;
+
     @media (--md) {
       width: 50%;
     }
 
     @media (--xxl) {
       display: none;
+    }
+
+    &:hover {
+      opacity: .8;
     }
   }
 

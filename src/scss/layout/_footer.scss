@@ -46,12 +46,16 @@ footer {
     display: inline-block;
     margin-right: 40px;
 
-    @media (--lg) {
-      margin-right: 20px;
-    }
-
     &:last-child {
       margin-right: 0;
+    }
+
+    @media (--sm) {
+      margin-right: 12px;
+    }
+
+    @media (--md) {
+      margin-right: 25px;
     }
 
     a {
@@ -144,7 +148,11 @@ footer {
     display: flex;
 
     ul {
-      width: 50%;
+      width: 35%;
+
+      &:last-child {
+        width: 65%;
+      }
     }
   }
 
@@ -280,6 +288,10 @@ footer {
 
       @media (--s) {
         font-size: 22px;
+      }
+
+      @media (--md) {
+        pointer-events: none;
       }
 
       .m-icon {

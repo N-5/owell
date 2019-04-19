@@ -18,7 +18,7 @@
           </div>
           <nav class="header-navigation" data-menu-navigation>
             <ul class="header-navigation-list">
-              <li class="header-navigation__item <?php if ( is_page('item') ): ?><?php echo('active-page') ?><?php endif; ?>">
+              <li class="header-navigation__item <?php if ( is_page( 'item' ) || '5' == $post->post_parent ) { ?><?php echo('active-page') ?><?php } ?>">
                 <a href="<?php echo home_url(); ?>/item/"><i class="m-arrow"></i><span>調査項目</span></a>
               </li>
               <li class="header-navigation__item <?php if ( is_page('price') ): ?><?php echo('active-page') ?><?php endif; ?>">
@@ -33,7 +33,7 @@
               <li class="header-navigation__item <?php if ( is_page('faq') ): ?><?php echo('active-page') ?><?php endif; ?>">
                 <a href="<?php echo home_url(); ?>/faq/"><i class="m-arrow"></i><span>Q&amp;A</span></a>
               </li>
-              <li class="header-navigation__item <?php if ( is_archive('blog') ): ?><?php echo('active-page') ?><?php endif; ?>">
+              <li class="header-navigation__item <?php if ( is_archive('blog') || is_singular('blog')): ?><?php echo('active-page') ?><?php endif; ?>">
                 <a href="<?php echo home_url(); ?>/blog/"><i class="m-arrow"></i><span>ブログ</span></a>
               </li>
             </ul>
