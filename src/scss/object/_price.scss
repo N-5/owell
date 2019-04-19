@@ -141,14 +141,12 @@
   }
 
   @media (--lg) {
-    font-size: 11px; 
+    font-size: 11px;
   }
 
   @media (--xl) {
     font-size: 12px;
   }
-
-
 
   &::before {
     content: '・';

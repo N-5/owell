@@ -40,10 +40,9 @@
 }
 
 .survey-menu-list__inner {
-  display: flex;
-  justify-content: space-between;
-
   @media (--sm) {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -53,7 +52,12 @@
 }
 
 .survey-menu-list__detail {
-  width: 65%;
+  margin-top: 20px;
+
+  @media (--sm) {
+    width: 65%;
+    margin-top: 0;
+  }
 
   @media (--lg) {
     width: 100%;
@@ -61,8 +65,11 @@
 }
 
 .survey-menu-list__image {
-  width: 30%;
   font-size: 0;
+
+  @media (--sm) {
+    width: 30%;
+  }
 
   @media (--lg) {
     width: 100%;
@@ -602,18 +609,18 @@
 }
 
 .survey-price__default {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  text-align: center;
   margin-bottom: 15px;
   padding: 20px 0;
   border: 2px solid $color-grey;
   font-weight: bold;
   background: $color-white;
+  text-align: center;
   line-height: 1.4;
 
   @media (--sm) {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
     line-height: 1.4;
   }
 
@@ -829,9 +836,9 @@
 
   i {
     display: inline-block;
-    vertical-align: middle;
-    margin-right: 3px;
     width: 16px;
+    margin-right: 3px;
+    vertical-align: middle;
     font-size: 0;
 
     @media (--md) {

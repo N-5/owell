@@ -154,9 +154,38 @@
   @media (--lg) {
     padding: 45px 0 0;
   }
+
+  input[type="submit"] {
+    display: inline-block;
+    padding: 20px 100px;
+    background: $color-grey;
+    color: $color-white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+    border: none;
+    -webkit-appearance: none;
+    transition: .24s ease all;
+
+    @media (--sm) {
+      padding: 30px 160px;
+    }
+
+    @media (--md) {
+      padding: 45px 240px;
+      font-size: 16px;
+
+      &:hover {
+        color: $color-white;
+        background: $color-main;
+      }
+    }
+  }
 }
 
-.contact-form__send {
+.contact-form__send,
+.contact-form__confirm {
   display: inline-block;
   position: relative;
 
@@ -184,34 +213,6 @@
     @media (--lg) {
       width: 20px;
       height: 20px;
-    }
-  }
-
-  input[type="submit"] {
-    display: inline-block;
-    padding: 20px 100px;
-    background: $color-grey;
-    color: $color-white;
-    font-size: 14px;
-    text-align: center;
-    font-weight: bold;
-    line-height: 1;
-    border: none;
-    -webkit-appearance: none;
-    transition: .24s ease all;
-
-    @media (--sm) {
-      padding: 30px 160px;
-    }
-
-    @media (--md) {
-      padding: 45px 240px;
-      font-size: 16px;
-
-      &:hover {
-        color: $color-white;
-        background: $color-main;
-      }
     }
   }
 }
@@ -248,6 +249,58 @@
 
     @media (--md) {
       margin-bottom: 50px;
+    }
+  }
+}
+
+.mw_wp_form_input {
+  .contact-form__send {
+    display: none;
+  }
+}
+
+.mw_wp_form_confirm {
+  .contact-heading {
+    display: none;
+  }
+
+  .contact-form__confirm {
+    display: none;
+  }
+
+  .contact-form__btnarea {
+    @media (--md) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .contact-form__send {
+    input[type="submit"] {
+      padding: 20px 100px;
+
+      @media (--md) {
+        padding: 30px 130px;
+      }
+
+      @media (--lg) {
+        padding: 30px 160px;
+      }
+    }
+  }
+
+  .contact-form__back {
+    margin-bottom: 20px;
+
+    @media (--md) {
+      margin-bottom: 0;
+      margin-right: 20px;
+    }
+
+    input[type="submit"] {
+      padding: 20px 100px;
+      background-color: #ccc;
     }
   }
 }

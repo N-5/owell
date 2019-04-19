@@ -257,6 +257,30 @@
   }
 }
 
+#contactconfirm {
+  background-color: $color-grey-light;
+
+  .page-title {
+    background-image: url('../img/contact/page-title.jpg');
+  }
+
+  .contact-form__outer {
+    @extend %secton___outer;
+  }
+
+  .contact-form {
+    padding-bottom: 40px;
+
+    @media (--sm) {
+      padding-bottom: 50px;
+    }
+
+    @media (--lg) {
+      padding-bottom: 70px;
+    }
+  }
+}
+
 #contactcomplete {
   padding-bottom: 40px;
   background-color: $color-grey-light;
