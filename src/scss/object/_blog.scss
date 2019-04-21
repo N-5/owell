@@ -137,6 +137,7 @@
 .archive-blog-list__text {
   @extend %transition;
 
+  margin-top: 20px;
   font-size: 12px;
   line-height: (24/14);
 
@@ -277,10 +278,16 @@
     flex-flow: row wrap;
 
     li {
-      margin-right: 10px;
+      width: 46%;
+      margin: 0 10px 10px 0;
       list-style-type: none;
       font-weight: bold;
       line-height: 1;
+
+      @media (--sm) {
+        width: auto;
+        margin: 0 15px 0 0;
+      }
 
       @media (--lg) {
         margin-right: 35px;
