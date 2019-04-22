@@ -3,6 +3,9 @@
     <div class="jp">ご契約までの流れ</div>
     <div class="en">FLOW</div>
   </h2>
+  <div class="survey-flow-bg1"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow-bg1.png" alt=""></div>
+  <div class="survey-flow-bg2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow-bg2.png" alt=""></div>
+  <div class="survey-flow-bg3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow-bg3.png" alt=""></div>
   <div class="survey-flow-list">
     <div class="survey-flow-list__item">
       <div class="survey-flow-list__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow_1.jpg"></div>

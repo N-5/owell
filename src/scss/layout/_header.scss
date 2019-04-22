@@ -218,15 +218,9 @@
 
       &:hover {
         @media (--md) {
-          opacity: .6;
-        }
-
-        @media (--xl) {
-          opacity: 1;
-        }
-
-        &::after {
-          width: 100%;
+          &::after {
+            width: 100%;
+          }
         }
       }
     }
@@ -292,7 +286,7 @@
       a {
         color: $color-white;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 22px;
 
         @media (--md) {
           font-size: 24px;

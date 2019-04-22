@@ -126,7 +126,7 @@ Template Name: company
             </dl>
           </div>
           <div class="company-locations__map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.194392725901!2d136.65553025164104!3d36.573533079897736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8336dfe48f6f1%3A0x2f0463b0629bb43f!2z44CSOTIwLTA5MDEg55-z5bed55yM6YeR5rKi5biC5b2m5LiJ55S677yR5LiB55uu77yS4oiS77yRIOOCouOCveODq-ODhuOCo-mHkeayouW9puS4iQ!5e0!3m2!1sja!2sjp!4v1555298031008!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1957.6869711756704!2d136.65595575944323!3d36.572371220747875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50eba9172f4dc46d!2z5YyX6Zm457eP5ZCI6IiI5L-h5omA44Kq44O844Km44Kn44Or772c5rWu5rCX6Kq_5p-7!5e0!3m2!1sja!2sjp!4v1555898721137!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </div>

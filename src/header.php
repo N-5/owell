@@ -13,9 +13,15 @@
     <div class="l-wrapper">
       <header id="header" class="header">
         <div class="header-inner">
+          <?php if ( is_home() || is_front_page() ) : ?>
+          <h1 class="header-logo">
+            <a href="<?php echo home_url(); ?>/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/common/header-logo.svg" alt="<?php bloginfo('name'); ?>"></a>
+          </h1>
+          <?php else : ?>
           <div class="header-logo">
             <a href="<?php echo home_url(); ?>/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/common/header-logo.svg" alt="<?php bloginfo('name'); ?>"></a>
           </div>
+          <?php endif; ?>
           <nav class="header-navigation" data-menu-navigation>
             <ul class="header-navigation-list">
               <li class="header-navigation__item <?php if ( is_page( 'item' ) || '5' == $post->post_parent ) { ?><?php echo('active-page') ?><?php } ?>">
@@ -27,7 +33,7 @@
               <li class="header-navigation__item <?php if ( is_page('company') ): ?><?php echo('active-page') ?><?php endif; ?>">
                 <a href="<?php echo home_url(); ?>/company/"><i class="m-arrow"></i><span>会社情報</span></a>
               </li>
-              <li class="header-navigation__item" <?php if ( is_page('contact') ): ?><?php echo('active-page') ?><?php endif; ?>>
+              <li class="header-navigation__item <?php if ( is_page('contact') ): ?><?php echo('active-page') ?><?php endif; ?>">
                 <a href="<?php echo home_url(); ?>/contact/"><i class="m-arrow"></i><span>お問い合わせ</span></a>
               </li>
               <li class="header-navigation__item <?php if ( is_page('faq') ): ?><?php echo('active-page') ?><?php endif; ?>">

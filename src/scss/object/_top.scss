@@ -59,10 +59,14 @@
 
   .top-hero__keni {
     position: absolute;
-    width: 90px;
+    width: 80px;
     top: 20px;
     right: 20px;
     font-size: 0;
+
+    @media (--s) {
+      width: 90px;
+    }
 
     @media (--sm) {
       width: 140px;
@@ -91,11 +95,15 @@
 
   .top-hero__lead {
     padding-top: 8px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     text-align: center;
     color: $color-white;
     line-height: (22/14);
+
+    @media (--s) {
+      font-size: 14px;
+    }
 
     @media (--md) {
       padding-top: 20px;

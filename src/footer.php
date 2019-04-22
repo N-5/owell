@@ -82,6 +82,12 @@
     </div>
   </div>
 </footer>
+<div class="cta-fix">
+  <div class="cta-fix__inner">
+    <div class="cta-fix__mail"><a href="<?php echo home_url(); ?>/contact/">メールお問合せ</a></div>
+    <div class="cta-fix__call"><a href="tel:0120871877"><i class="m-icon m-icon__call"><?php get_template_part('lib/call-icon'); ?></i>0120-871-877</a></div>
+  </div>
+</div>
 </div>
 <?php wp_footer(); ?>
 </body>

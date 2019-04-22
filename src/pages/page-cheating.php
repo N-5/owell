@@ -129,7 +129,7 @@ Template Name: cheating
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>03</small></span></div>
               <h3 class="top-case-list__heading">
-                <div class="title">妻から突然の離婚申し出。<br class="u-md">無料の事前調査のおかげで調査がスムーズかつ安値に。<br class="u-md">慰謝料請求まで全てをサポート。</div>
+                <div class="title">妻から突然の離婚申し出<br class="u-md">無料の事前調査のおかげで調査がスムーズかつ安値に。<br class="u-md">慰謝料請求まで全てをサポート。</div>
                 <div class="person">(福井県 20代後半男性)</div>
               </h3>
               <div class="text u-md">依頼者様は妻に性格の不一致などを理由に離婚を言い渡されたが妻に不貞行為の疑いがあったため納得がいかず、依頼に至る。</div>

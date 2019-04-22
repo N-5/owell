@@ -4,8 +4,8 @@
   <section class="top-hero">
     <div class="top-hero__inner">
       <div class="top-hero__keni"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-hero__keni.png" alt="年間解決数300件以上"></div>
-      <h1 class="top-hero__title">豊富な解決実績<br>独自の調査<br>あなたを解決まで導きます</h1>
-      <div class="top-hero__lead">ご依頼主様が相談しやすい、<br class="u-sm__max">手数料0円や成果報酬プランなどをご用意！<br>まずはお気軽にご相談ください。</div>
+      <h2 class="top-hero__title">豊富な解決実績<br>独自の調査<br>あなたを解決まで導きます</h2>
+      <div class="top-hero__lead">業界では珍しい基本報酬０円プランなどをご用意！<br>不明な点などまずはお気軽にお問い合わせください。</div>
       <div class="top-hero-search">
         <div class="top-hero-search__item"><a href="<?php echo home_url(); ?>/item/cheating/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-hero__search_1.png" alt="浮気、不調査"></a></div>
         <div class="top-hero-search__item"><a href="<?php echo home_url(); ?>/item/personal/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-hero__search_2.png" alt="身元、身辺調査"></a></div>
@@ -14,7 +14,7 @@
       </div>
     </div>
   </section>
- 
+
   <section class="cta">
     <div class="l-container">
       <div class="cta-outer">
@@ -39,7 +39,7 @@
       </div>
     </div>
   </section>
-  
+
   <section class="top-reason">
     <div class="l-container">
       <div class="top-heading__back"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-heading-reason.png" alt="reason"></div>
@@ -71,7 +71,7 @@
             </h3>
           </div>
           <div class="top-reason-list__bottom">
-            <p class="text">弊社では担当の弁護士に確認を取りながら裁判に使用できる制度の高い調査報告書の政策を心掛けております。</p>
+            <p class="text">弊社では担当の弁護士に確認を取りながら裁判に使用できる精度の高い調査報告書の作成を心掛けております。</p>
           </div>
         </div>
         <div class="top-reason-list__item">
@@ -170,9 +170,9 @@
         <div class="jp">完全成果報酬型<br class="u-sm__max">プラン</div>
         <div class="en">PLAN</div>
       </h2>
-      <h3 class="top-plan__heading">完全成果報酬なので、<br class="u-md__max">証拠が取れなければ支払いは<span>0<small>円</small></span></h3>
+      <h3 class="top-plan__heading">完全成果報酬なので、<br class="u-md__max">結果が出なければ<span>0<small>円</small></span></h3>
       <div class="top-plan-list">
-        <div class="top-plan-list__item">証拠が取れなければ<br>経費も含め<span>0円</span></div>
+        <div class="top-plan-list__item">結果が出なければ<br>経費も含め<span>0円</span></div>
         <div class="top-plan-list__item">成功条件は相違がないように<br><span>事前に取り決めます!</span></div>
         <div class="top-plan-list__item">調査の可否は<span>お電話１本</span>で<br>お答えします!</div>
       </div>
@@ -268,7 +268,7 @@
       </div>
     </div>
   </section>
-  
+
   <section class="top-service">
     <div class="l-container">
       <div class="top-heading__back"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-heading-service.png" alt="service"></div>
@@ -295,7 +295,7 @@
               <span class="jp">婚前調査、<br>身元・身辺調査</span>
               <span class="en">PERSONAL SURVEY</span>
             </h3>
-            <div class="item-detail__text">原因は晩婚化など考えられる要素は多くありますが、近年、婚前調査は増え続けています結婚は人生における最大の分岐点だと考えております。経歴に嘘なないのか、犯罪歴は？借金は？時すでに遅し、、と後で悔やむことの無いように今できることのお手伝いをさせて下さい。</div>
+            <div class="item-detail__text">原因は晩婚化など考えられる要素は多くありますが、近年、婚前調査は増え続けています。結婚は人生における最大の分岐点だと考えております。経歴に嘘なないのか、犯罪歴は？借金は？時すでに遅し…と後で悔やむことの無いように今できることのお手伝いをさせて下さい。</div>
             <div class="m-more"><a href="<?php echo home_url(); ?>/item/personal/">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
           </div>
           <div class="item-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service_2.jpg" alt="婚前調査身元・身辺調査"></div>
@@ -306,7 +306,7 @@
               <span class="jp">行方・所在調査</span>
               <span class="en">LOCATION SURVEY</span>
             </h3>
-            <div class="item-detail__text">弊社に依頼される依頼者様の探したい相手は家出をした家族、連絡の取れなくなった友人初恋の人、お金を貸して返済の無いまま行方が分からなくなった相手など様々ですが、家出人を含め1年間の行方不明者数は8万人を超えるとされています。</div>
+            <div class="item-detail__text">弊社に依頼される依頼者様の探したい相手は家出をした家族、連絡の取れなくなった友人、初恋の人、お金を貸して返済の無いまま行方が分からなくなった相手など様々です。家出人を含め1年間の行方不明者数は8万人を超えるとされています。</div>
             <div class="m-more"><a href="<?php echo home_url(); ?>/item/location/">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
           </div>
           <div class="item-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service_3.jpg" alt="行方・所在調査"></div>
@@ -325,7 +325,7 @@
       </div>
     </div>
   </section>
-  
+
   <section class="top-news">
     <div class="l-container">
       <h2 class="top-heading">

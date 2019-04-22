@@ -489,6 +489,7 @@
 }
 
 .survey-flow {
+  position: relative;
   background-color: $color-white;
   background-image: url("../img/common/font-flow.png");
   background-repeat: no-repeat;
@@ -502,6 +503,47 @@
 
   @media (--lg) {
     background-position: calc(50% - -340px) calc(0% - -110px);
+  }
+}
+
+.survey-flow-bg1,
+.survey-flow-bg2,
+.survey-flow-bg3 {
+  position: absolute;
+  width: 100%;
+
+  @media (--md) {
+    width: auto;
+  }
+}
+
+.survey-flow-bg1 {
+  top: 10%;
+  right: -40%;
+
+  @media (--lg) {
+    top: 360px;
+    right: calc(50% - 760px);
+  }
+}
+
+.survey-flow-bg2 {
+  top: 52%;
+  left: -40%;
+
+  @media (--lg) {
+    top: 39%;
+    left: calc(50% - 660px);
+  }
+}
+
+.survey-flow-bg3 {
+  bottom: 2%;
+  right: -40%;
+
+  @media (--lg) {
+    bottom: 4%;
+    right: calc(50% - 660px);
   }
 }
 
@@ -966,7 +1008,7 @@
 
     strong {
       @media (--md) {
-        font-size: 42px;
+        font-size: 36px;
       }
     }
 
