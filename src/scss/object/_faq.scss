@@ -56,6 +56,7 @@
       left: 50%;
       font-family: $font-en;
       color: $color-white;
+      line-height: 1;
       transform: translate(-50%, -50%);
 
       @media (--md) {
@@ -115,6 +116,7 @@
       left: 50%;
       font-family: $font-en;
       color: $color-white;
+      line-height: 1;
       transform: translate(-50%, -50%);
 
       @media (--md) {

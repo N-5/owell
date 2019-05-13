@@ -34,15 +34,15 @@ Template Name: company
             </dl>
             <dl class="table-list__item">
               <dt class="table-list__heading">フリーダイヤル</dt>
-              <dd class="table-list__content">0120-871-877</dd>
+              <dd class="table-list__content" x-ms-format-detection="none">0120-871-877</dd>
             </dl>
             <dl class="table-list__item">
               <dt class="table-list__heading">TEL</dt>
-              <dd class="table-list__content">076-223-2487</dd>
+              <dd class="table-list__content" x-ms-format-detection="none">076-223-2487</dd>
             </dl>
             <dl class="table-list__item">
               <dt class="table-list__heading">FAX</dt>
-              <dd class="table-list__content">076-223-2488</dd>
+              <dd class="table-list__content" x-ms-format-detection="none">076-223-2488</dd>
             </dl>
             <dl class="table-list__item">
               <dt class="table-list__heading">MAIL</dt>

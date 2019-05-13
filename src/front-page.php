@@ -22,7 +22,7 @@
           <div class="cta-line">
             <h2 class="cta-heading">今すぐご連絡！</h2>
             <div class="cta-line__link cta-btn">
-              <a href="https://line.me/R/ti/p/%40ogb7100k" target="_blank"><i class="m-icon m-icon__line"><?php get_template_part('lib/line-icon'); ?></i><span>LINEでお問い合わせ</span></a>
+              <a href="https://line.me/R/ti/p/IHdBbBQk9O" target="_blank"><i class="m-icon m-icon__line"><?php get_template_part('lib/line-icon'); ?></i><span>LINEでお問い合わせ</span></a>
             </div>
           </div>
           <div class="cta-call">
@@ -107,7 +107,7 @@
             </h3>
           </div>
           <div class="top-reason-list__bottom">
-            <p class="text">依頼主様にも安心して調査を任せて頂けるよう相談員一人一人が親身に寄り添い親切かつ迅速な対応を心掛けております。</p>
+            <p class="text">依頼主様に安心して調査を任せて頂けるよう相談員一人一人が親身に寄り添い親切かつ迅速な対応を心掛けております。</p>
           </div>
         </div>
         <div class="top-reason-list__item">
@@ -146,7 +146,7 @@
           </div>
           <div class="top-price-menu__item">
             <h3 class="top-price-menu__heading">諸経費</h3>
-            <div class="top-price-menu__lead">相談料・機材費・車両費など<span>全て込み</span></div>
+            <div class="top-price-menu__lead">相談料・機材費・<br class="u-sm__max">車両費など<span>全て込み</span></div>
           </div>
           <div class="top-price-menu__item">
             <h3 class="top-price-menu__heading">追加料金</h3>
@@ -232,7 +232,7 @@
           <div class="top-case-list__bottom">
             <div class="top-case-list__contents">
               <div class="title">調査内容</div>
-              <p class="text">依頼者様と面談を行い、予算から調査の優先順位などを決定。その後依頼者様から頂いた情報を元に対象者の普段の行動・対象者の風評・対象者の資産状況・金銭トラブルの有無。また対象者の親族の風評・資産状況を調査。その結果、対象者がパチンコ店に頻繁に出入りしている事が判明したが、それ以外では依頼者様が娘から聞いていた情報と特に相違無くマイナスになる要素も見受けられなかった。</p>
+              <p class="text">依頼者様と面談を行い、予算から調査の優先順位などを決定。その後依頼者様から頂いた情報を元に対象者の普段の行動・対象者の風評・対象者の資産状況・金銭トラブルの有無、また対象者の親族の風評・資産状況を調査。その結果、対象者がパチンコ店に頻繁に出入りしている事が判明したが、それ以外では依頼者様が娘から聞いていた情報と特に相違無くマイナスになる要素も見受けられなかった。</p>
             </div>
             <div class="top-case-list__price">
               <div class="title">金額</div>
@@ -295,7 +295,7 @@
               <span class="jp">婚前調査、<br>身元・身辺調査</span>
               <span class="en">PERSONAL SURVEY</span>
             </h3>
-            <div class="item-detail__text">原因は晩婚化など考えられる要素は多くありますが、近年、婚前調査は増え続けています。結婚は人生における最大の分岐点だと考えております。経歴に嘘なないのか、犯罪歴は？借金は？時すでに遅し…と後で悔やむことの無いように今できることのお手伝いをさせて下さい。</div>
+            <div class="item-detail__text">原因は晩婚化など考えられる要素は多くありますが、近年、婚前調査は増え続けています。結婚は人生における最大の分岐点だと考えております。経歴に嘘はないのか、犯罪歴は？借金は？時すでに遅し…と後で悔やむことの無いように今できることのお手伝いをさせて下さい。</div>
             <div class="m-more"><a href="<?php echo home_url(); ?>/item/personal/">READ MORE<i class="m-arrow m-arrow__orange"></i></a></div>
           </div>
           <div class="item-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-service_2.jpg" alt="婚前調査身元・身辺調査"></div>
@@ -375,10 +375,10 @@
           <div class="top-news-list__text">
             <?php
             if(mb_strlen($post->post_content, 'UTF-8')>60){
-              $content= mb_substr($post->post_content, 0, 60, 'UTF-8');
-              echo $content.'...';
+              $content= mb_substr(strip_tags($post->post_content), 0, 60, 'UTF-8');
+              echo $content.'…';
             }else{
-              echo $post->post_content;
+              echo strip_tags($post->post_content);
             }
             ?>
           </div>

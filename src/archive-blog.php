@@ -30,28 +30,30 @@
             <div class="archive-blog-list__text">
               <?php
               if(mb_strlen($post->post_content, 'UTF-8')>100){
-                $content= mb_substr($post->post_content, 0, 100, 'UTF-8');
-                echo $content.'...';
+                $content= mb_substr(strip_tags($post->post_content), 0, 100, 'UTF-8');
+                echo $content.'…';
               }else{
-                echo $post->post_content;
+                echo strip_tags($post->post_content);
               }
               ?>
             </div>
-            <div class="archive-blog-list__category">
-              <?php $custom_post_tag = 'blog-category';
-              $custom_post_tag_terms = wp_get_object_terms($post->ID, $custom_post_tag);
-              if(!empty($custom_post_tag_terms)){
-                if(!is_wp_error( $custom_post_tag_terms )){
-                  foreach($custom_post_tag_terms as $term){
-                    $tag_term_link = get_term_link($term->slug, $custom_post_tag);
-                    $tag_term_name = $term->name;
-                    echo '<div class="archive-blog-list__category__item"">'.$tag_term_name.'</div>';
+            <div class="archive-blog-list__function">
+              <div class="archive-blog-list__category">
+                <?php $custom_post_tag = 'blog-category';
+                $custom_post_tag_terms = wp_get_object_terms($post->ID, $custom_post_tag);
+                if(!empty($custom_post_tag_terms)){
+                  if(!is_wp_error( $custom_post_tag_terms )){
+                    foreach($custom_post_tag_terms as $term){
+                      $tag_term_link = get_term_link($term->slug, $custom_post_tag);
+                      $tag_term_name = $term->name;
+                      echo '<div class="archive-blog-list__category__item"">'.$tag_term_name.'</div>';
+                    }
                   }
                 }
-              }
-              ?>
+                ?>
+              </div>
+              <div class="archive-blog-list__time"><time><?php the_date("Y年n月j日"); ?></time></div>
             </div>
-            <div class="archive-blog-list__time"><time><?php the_date("Y年n月j日"); ?></time></div>
           </div>
         </a>
       </article>

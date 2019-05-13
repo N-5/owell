@@ -38,7 +38,7 @@ Template Name: contact
           </div>
           <div class="cta-line">
             <div class="cta-line__link cta-btn">
-              <a href="https://line.me/R/ti/p/%40ogb7100k" target="_blank"><i class="m-icon m-icon__line"><?php get_template_part('lib/line-icon'); ?></i><span>LINEでお問い合わせ</span></a>
+              <a href="https://line.me/R/ti/p/IHdBbBQk9O" target="_blank"><i class="m-icon m-icon__line"><?php get_template_part('lib/line-icon'); ?></i><span>LINEでお問い合わせ</span></a>
             </div>
           </div>
         </div>

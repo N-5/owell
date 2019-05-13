@@ -24,12 +24,12 @@
   &::after {
     content: '';
     position: absolute;
-    bottom: -14px;
+    bottom: -13px;
     left: 50%;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 14px 15px 0 15px;
+    border-width: 15px 15px 0 15px;
     border-color: $color-main transparent transparent transparent;
     transform: translate(-50%, 0);
   }

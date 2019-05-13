@@ -8,7 +8,7 @@
   <div class="survey-flow-bg3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow-bg3.png" alt=""></div>
   <div class="survey-flow-list">
     <div class="survey-flow-list__item">
-      <div class="survey-flow-list__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow_1.jpg"></div>
+      <div class="survey-flow-list__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow_1.jpg" alt="お問い合わせ"></div>
       <div class="survey-flow-list__step">
         <div class="m-case-number"><span>step <small>01</small></span></div>
         <h3 class="survey-flow-list__heading">お問い合わせ</h3>
@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="survey-flow-list__item">
-      <div class="survey-flow-list__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow_2.jpg"></div>
+      <div class="survey-flow-list__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow_2.jpg" alt="無料相談"></div>
       <div class="survey-flow-list__step">
         <div class="m-case-number"><span>step <small>02</small></span></div>
         <h3 class="survey-flow-list__heading">無料相談</h3>
@@ -32,7 +32,7 @@
       </div>
     </div>
     <div class="survey-flow-list__item">
-      <div class="survey-flow-list__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow_3.jpg"></div>
+      <div class="survey-flow-list__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow_3.jpg" alt="無料見積り、ご契約"></div>
       <div class="survey-flow-list__step">
         <div class="m-case-number"><span>step <small>03</small></span></div>
         <h3 class="survey-flow-list__heading">無料見積り、ご契約</h3>
@@ -45,18 +45,18 @@
       </div>
     </div>
     <div class="survey-flow-list__item">
-      <div class="survey-flow-list__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow_4.jpg"></div>
+      <div class="survey-flow-list__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow_4.jpg" alt="調査開始"></div>
       <div class="survey-flow-list__step">
         <div class="m-case-number"><span>step <small>04</small></span></div>
         <h3 class="survey-flow-list__heading">調査開始</h3>
         <p class="survey-flow-list__text">
-          契約の完了後、弊社の調査員が実際に調査を行っていきます。調査期間中は可能な限り迅速に、確実に調査結果を報告できるように、場合によっては依頼者様と担当相談員が密なやり取りや依頼者様の協力が必要となってきます。<br class="u-md">
+          契約の完了後、弊社の調査員が実際に調査を行っていきます。調査期間中は可能な限り迅速に、確実な調査結果を報告できるように、場合によっては依頼者様と担当相談員が密なやり取りや依頼者様の協力が必要となってきます。<br class="u-md">
           また、無駄な調査・費用を省く為、調査の中断や時間短縮などを行う際は必ず依頼者様の判断が必要となります。調査期間内は精神的に不安になったり分からないことがどんどん出てきます。その際はどんな小さなことでも担当相談員に一度ご連絡下さい。依頼者様の小さな判断ミスが調査結果を左右する事が多々あります。
         </p>
       </div>
     </div>
     <div class="survey-flow-list__item">
-      <div class="survey-flow-list__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow_5.jpg"></div>
+      <div class="survey-flow-list__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-flow_5.jpg" alt="報告、アフターケア"></div>
       <div class="survey-flow-list__step">
         <div class="m-case-number"><span>step <small>05</small></span></div>
         <h3 class="survey-flow-list__heading">報告、アフターケア</h3>

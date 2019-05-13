@@ -23,11 +23,11 @@
         </dl>
         <dl class="footer-information-compamy__item">
           <dt class="footer-information-compamy__heading">TEL</dt>
-          <dd class="footer-information-compamy__content">0120-871-877<br>076-223-2487</dd>
+          <dd class="footer-information-compamy__content" x-ms-format-detection="none">0120-871-877<br>076-223-2487</dd>
         </dl>
         <dl class="footer-information-compamy__item">
           <dt class="footer-information-compamy__heading">FAX</dt>
-          <dd class="footer-information-compamy__content">076-223-2488</dd>
+          <dd class="footer-information-compamy__content" x-ms-format-detection="none">076-223-2488</dd>
         </dl>
         <dl class="footer-information-compamy__item">
           <dt class="footer-information-compamy__heading">MAIL</dt>
@@ -69,7 +69,7 @@
         <div class="footer-sns-list__item"><a href="https://www.facebook.com/%E5%8C%97%E9%99%B8%E7%B7%8F%E5%90%88%E8%88%88%E4%BF%A1%E6%89%80%E3%82%AA%E3%83%BC%E3%82%A6%E3%82%A7%E3%83%AB-210354132849846/?modal=admin_todo_tour" target="_blank"><span><?php get_template_part('lib/facebook-icon'); ?></span></a></div>
         <div class="footer-sns-list__item"><a href="https://twitter.com/owell_tantei" target="_blank"><span><?php get_template_part('lib/twitter-icon'); ?></span></a></div>
         <div class="footer-sns-list__item"><a href="https://www.instagram.com/owell_tantei/" target="_blank"><span><?php get_template_part('lib/instagram-icon'); ?></span></a></div>
-        <div class="footer-sns-list__item"><a href="https://line.me/R/ti/p/@ogb7100k" target="_blank"><span><?php get_template_part('lib/line-icon'); ?></span></a></div>
+        <div class="footer-sns-list__item"><a href="https://line.me/R/ti/p/IHdBbBQk9O" target="_blank"><span><?php get_template_part('lib/line-icon'); ?></span></a></div>
       </div>
     </div>
     
@@ -84,7 +84,7 @@
 </footer>
 <div class="cta-fix">
   <div class="cta-fix__inner">
-    <div class="cta-fix__mail"><a href="<?php echo home_url(); ?>/contact/">メールお問合せ</a></div>
+    <div class="cta-fix__mail"><a href="https://line.me/R/ti/p/IHdBbBQk9O"><i class="m-icon m-icon__line"><?php get_template_part('lib/line-icon'); ?></i>LINEお問い合わせ</a></div>
     <div class="cta-fix__call"><a href="tel:0120871877"><i class="m-icon m-icon__call"><?php get_template_part('lib/call-icon'); ?></i>0120-871-877</a></div>
   </div>
 </div>

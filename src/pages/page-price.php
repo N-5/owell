@@ -223,7 +223,7 @@ Template Name: price
           <span class="section-heading__jp">その他調査</span>
         </h2>
         <div class="price-survey__diff">
-          その他調査の料金につきましては、事前にお持ちの資料や鮮明度、<br>鑑定料などにより異なっておりますので、一度お問い合わせください
+          その他の調査の料金につきましては、一度お問い合わせ下さい。
         </div>
         <div class="m-link"><a href="<?php echo home_url(); ?>/item/other/"><span>詳しくはこちら</span><i class="m-arrow m-arrow__grey"></i></a></div>
       </div>

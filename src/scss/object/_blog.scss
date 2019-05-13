@@ -154,23 +154,41 @@
   }
 }
 
-.archive-blog-list__category {
+.archive-blog-list__function {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 20px;
 
   @media (--md) {
     margin-top: 30px;
   }
+}
+
+.archive-blog-list__category {
+  width: 68%;
 
   @media (--lg) {
-    margin-top: 38px;
+    width: 80%;
+  }
+}
+
+.archive-blog-list__time {
+  color: #9f9f9f;
+  font-size: 11px;
+
+  @media (--md) {
+    font-size: 12px;
   }
 }
 
 .archive-blog-list__category__item {
   @extend %transition;
 
-  display: inline;
-  margin-right: 2px;
+  display: inline-block;
+  margin-right: 3px;
+  margin-bottom: 3px;
   padding: 2px 15px;
   border: 1px solid $color-grey;
   font-size: 12px;
@@ -185,14 +203,10 @@
     padding: 4px 40px;
     font-size: 14px;
   }
-}
 
-.archive-blog-list__time {
-  position: absolute;
-  color: #9f9f9f;
-  bottom: 0;
-  right: 0;
-  font-size: 12px;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .archive-blog-term {
@@ -320,31 +334,42 @@
 
   header {
     position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+
+    @media (--md) {
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+    }
+
+    @media (--lg) {
+      margin-bottom: 50px;
+      padding-bottom: 50px;
+    }
   }
 }
 
 .single-blog__heading {
-  margin-bottom: 20px;
-  padding-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 18px;
   font-weight: bold;
-  border-bottom: 1px solid #ccc;
+  line-height: 1.5;
+
+  @media (--md) {
+    font-size: 22px;
+  }
 
   @media (--lg) {
-    margin-bottom: 40px;
-    padding-bottom: 15px;
+    margin-bottom: 30px;
     font-size: 28px;
   }
 }
 
 .single-blog__time {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #9f9f9f;
   font-size: 12px;
-
-  @media (--md) {
-    margin-bottom: 40px;
-  }
 }
 
 .archive-blog__pager {
@@ -386,9 +411,8 @@
 }
 
 .single-blog-category {
-  position: absolute;
-  top: 0;
-  right: 0;
+  display: flex;
+  flex-flow: row wrap;
 
   a {
     @extend %transition;
@@ -410,5 +434,13 @@
       padding: 5px 40px;
       font-size: 14px;
     }
+  }
+}
+
+.single-blog-category__item {
+  margin-right: 5px;
+
+  @media (--md) {
+    margin-right: 10px;
   }
 }

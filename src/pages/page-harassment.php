@@ -29,7 +29,7 @@ Template Name: harassment
       <div class="survey-anchor-list">
         <div class="survey-anchoor-list__item"><a href="#a1" data-anchor><span>オーウェルが<br class="u-sm__max">選ばれる理由</span></a></div>
         <div class="survey-anchoor-list__item"><a href="#a2" data-anchor><span>こんなこと<br class="u-sm__max">ありませんか</span></a></div>
-        <div class="survey-anchoor-list__item"><a href="#a3" data-anchor><span>嫌がらせ、ストーカー対策<br class="u-sm__max">の事例</span></a></div>
+        <div class="survey-anchoor-list__item"><a href="#a3" data-anchor><span>嫌がらせ、ストーカー<br class="u-sm__max">対策の事例</span></a></div>
         <div class="survey-anchoor-list__item"><a href="#a4" data-anchor>ご契約まで<br class="u-sm__max">の流れ</a></div>
         <div class="survey-anchoor-list__item"><a href="#a5" data-anchor><span>料金</span></a></div>
         <div class="survey-anchoor-list__item"><a href="#a6" data-anchor><span>Q&amp;A</span></a></div>
@@ -46,7 +46,7 @@ Template Name: harassment
       <div class="l-container">
         <h2 class="survey-point__heading"><span>当てはまることありませんか？</span></h2>
         <div class="survey-point__inner">
-          <div class="survey-point__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-point__image.jpg"></div>
+          <div class="survey-point__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-point__image.jpg" alt="当てはまることありませんか?"></div>
           <ul class="survey-point-list">
             <li class="survey-point-list__item"><span>尾行</span>されている気がする</li>
             <li class="survey-point-list__item"><span>イタズラ電話</span>が頻繁にかかってくる</li>
@@ -72,7 +72,7 @@ Template Name: harassment
         <div class="top-case-list__item">
           <div class="m-case-number u-md__max"><span>CASE <small>01</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_8.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_8.jpg" alt="CASE01"></div>
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>01</small></span></div>
               <h3 class="top-case-list__heading">
@@ -98,7 +98,7 @@ Template Name: harassment
         <div class="top-case-list__item">
           <div class="m-case-number u-md__max"><span>CASE <small>02</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_4.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_4.jpg" alt="CASE02"></div>
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>02</small></span></div>
               <h3 class="top-case-list__heading">
@@ -124,7 +124,7 @@ Template Name: harassment
         <div class="top-case-list__item">
           <div class="m-case-number u-md__max"><span>CASE <small>03</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_11.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_11.jpg" alt="CASE03"></div>
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>03</small></span></div>
               <h3 class="top-case-list__heading">

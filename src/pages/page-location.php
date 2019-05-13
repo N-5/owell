@@ -46,13 +46,13 @@ Template Name: location
       <div class="l-container">
         <h2 class="survey-point__heading"><span>当てはまることありませんか？</span></h2>
         <div class="survey-point__inner">
-          <div class="survey-point__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-point__image.jpg"></div>
+          <div class="survey-point__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-point__image.jpg" alt="当てはまることありませんか?"></div>
           <ul class="survey-point-list">
-            <li class="survey-point-list__item">夫(妻)の<span>浮気相手の</span>住所が知りたい</li>
-            <li class="survey-point-list__item"><span>家族が</span>家出をした</li>
+            <li class="survey-point-list__item">夫(妻)の<span>浮気相手</span>の住所が知りたい</li>
+            <li class="survey-point-list__item"><span>家族</span>が家出をした</li>
             <li class="survey-point-list__item"><span>初恋の人</span>にもう一度会いたい</li>
             <li class="survey-point-list__item"><span>昔お世話になった人</span>にお礼を言いたい</li>
-            <li class="survey-point-list__item">連絡を<span>取りたい</span>人物がいる</li>
+            <li class="survey-point-list__item"><span>連絡</span>を取りたい<span>人物</span>がいる</li>
           </ul>
         </div>
         <div class="servery-point__ribon"><span>些細な悩みでも構いません。<br class="u-md__max">まずはお問い合わせください。</span></div>
@@ -70,7 +70,7 @@ Template Name: location
         <div class="top-case-list__item">
           <div class="m-case-number u-md__max"><span>CASE <small>01</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_3.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_3.jpg" alt="CASE01"></div>
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>01</small></span></div>
               <h3 class="top-case-list__heading">
@@ -96,7 +96,7 @@ Template Name: location
         <div class="top-case-list__item">
           <div class="m-case-number u-md__max"><span>CASE <small>02</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_5.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_5.jpg" alt="CASE02"></div>
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>02</small></span></div>
               <h3 class="top-case-list__heading">
@@ -122,7 +122,7 @@ Template Name: location
         <div class="top-case-list__item">
           <div class="m-case-number u-md__max"><span>CASE <small>03</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_7.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_7.jpg" alt="CASE03"></div>
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>03</small></span></div>
               <h3 class="top-case-list__heading">
@@ -185,10 +185,10 @@ Template Name: location
           <div class="survey-faq-list__item">
             <div class="survey-faq-list__heading">
               <div class="question"><span>Q</span></div>
-              <h3 class="heading">浮気しているか確証がないので費用をかけてまで調べる必要があるのでしょうか？</h3>
+              <h3 class="heading">調査で途中経過の連絡はして頂けますか？</h3>
             </div>
             <div class="survey-faq-list__text">
-              勿論、中には浮気をしている可能性が低いと思われる相談内容もございます。その際お客様から相談に至った経緯などをお聞きした上でしっかりとアドバイスさせて頂きます。また、相談内容に合わせて費用を抑えた調査方法もご提案できますので一度お問い合わせ下さい。
+              はい。弊社ではなるべく調査時間内において依頼者様には連絡が取れるようにして頂いております。理由として、予期せぬ事態が起こった際に依頼者様の判断が必要になったり、無駄な費用をかけないために必要に応じて調査の中断要請を仰ぐことがあるからです。
             </div>
           </div>
           <div class="survey-faq-list__item">

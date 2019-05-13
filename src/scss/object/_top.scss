@@ -142,6 +142,8 @@
 
     a {
       @extend %hover-effect_opacity;
+
+      display: block;
     }
   }
 }

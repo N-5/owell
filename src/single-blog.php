@@ -15,6 +15,7 @@
         <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
         <header>
           <div class="single-blog__time"><time><?php the_date("Y年n月j日"); ?></time></div>
+          <h1 class="single-blog__heading"><?php the_title() ?></h1>
           <div class="single-blog-category">
             <?php $custom_post_tag = 'blog-category';
             $custom_post_tag_terms = wp_get_object_terms($post->ID, $custom_post_tag);
@@ -29,7 +30,6 @@
             }
             ?>
           </div>
-          <h1 class="single-blog__heading"><?php the_title() ?></h1>
         </header>
 
         <div class="postarea">

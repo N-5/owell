@@ -3,8 +3,11 @@ footer {
   padding: 30px 0;
   background: $color-grey;
 
-  @media (--md) {
+  @media (--sm) {
     margin-bottom: 0;
+  }
+
+  @media (--md) {
     padding: 50px 0 30px;
   }
 

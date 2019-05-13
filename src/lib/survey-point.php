@@ -2,7 +2,7 @@
   <div class="l-container">
     <h2 class="survey-point__heading"><span>当てはまることありませんか？</span></h2>
     <div class="survey-point__inner">
-      <div class="survey-point__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-point__image.jpg"></div>
+      <div class="survey-point__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-point__image.jpg" alt="当てはまることありませんか?"></div>
       <ul class="survey-point-list">
         <li class="survey-point-list__item"><span>出会い系サイト</span>で知り合った人の<br class="u-md"><span>素性</span>がわからない</li>
         <li class="survey-point-list__item">結婚を考えている相手の<span>資産状況</span>や<br class="u-md"><span>借金の有無</span>が知りたい</li>

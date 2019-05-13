@@ -18,8 +18,8 @@ Template Name: item
     <div class="l-container">
       <p class="page-lead__text">
         私達オーウェルは、浮気調査は勿論、その他様々な調査をご依頼頂いております。<br class="u-md">
-        自分では解決できない悩みや人には相談出来ない事、他社に断られた調査など、1人で抱え込まずに一度ご相談ください。<br class="u-md">
-        相談は24時間で承っております。
+        自分では解決できない悩みや人には相談出来ない事、他社に断られた調査など、<br class="md-lg">1人で抱え込まずに一度ご相談ください。<br class="u-md">
+        相談は24時間いつでも承っております。
       </p>
     </div>
   </section>
@@ -35,7 +35,7 @@ Template Name: item
             <div class="survey-menu-list__detail">
               <h2 class="survey-menu__heading"><i class="m-icon"><?php get_template_part('lib/list-icon'); ?></i>浮気・不倫調査</h2>
               <p class="survey-menu__text">
-                当社への相談で最も多い浮気調査。だからこそ依頼者様に満足のできる調査結果を報告する為、調査力の向上やアフターサービスの徹底、弁護士事務所との連携などに力を入れ、費用面でも他社より1円でも安くをモットーに日々努めております。当社では調査結果報告は通過点だと考えております。本当の意味での解決まで最後まで全力でお手伝いさせて頂きます。
+                当社への相談で最も多い浮気調査。だからこそ依頼者様に満足のできる調査結果を報告する為、調査力の向上やアフターサービスの徹底、弁護士事務所との連携などに力を入れ、費用面でも他社より1円でも安くをモットーに日々努めております。当社では調査結果報告は通過点だと考えております。本当の意味での解決まで全力でお手伝いさせて頂きます。
               </p>
             </div>
           </div>
@@ -50,7 +50,7 @@ Template Name: item
             <div class="survey-menu-list__detail">
               <h2 class="survey-menu__heading"><i class="m-icon"><?php get_template_part('lib/list-icon'); ?></i>婚前調査、身元・身辺調査</h2>
               <p class="survey-menu__text">
-                近年増加している婚前調査は結婚を控える女性の親からの依頼が過半数を占めています男性側に借金はないのか、危ない人間との関わりがないか、など不安要素は様々ですが結婚は今後の人生を左右する大きな節目です。解消できる不安は取り除きましょう。
+                近年増加している婚前調査は結婚を控える女性の親からの依頼が過半数を占めています。男性側に借金はないのか、危ない人間との関わりがないか、など不安要素は様々ですが結婚は今後の人生を左右する大きな節目です。解消できる不安は取り除きましょう。
               </p>
             </div>
           </div>
@@ -80,7 +80,7 @@ Template Name: item
             <div class="survey-menu-list__detail">
               <h2 class="survey-menu__heading"><i class="m-icon"><?php get_template_part('lib/list-icon'); ?></i>盗聴、盗聴器の発見・除去</h2>
               <p class="survey-menu__text">
-                盗聴器等を仕掛ける理由もライバル社の情報収集や単なる嫌がらせなど様々ですが大きな被害を受けてからではもう手遅れです。少しでも違和感を感じたり怪しいと思った時は当社にお任せください。最新の盗聴器発見機材を使用し発見・除去までお手伝いさせて頂きます。
+                盗聴器等を仕掛ける理由はライバル社の情報収集や単なる嫌がらせなど様々ですが大きな被害を受けてからではもう手遅れです。少しでも違和感を感じたり怪しいと思った時は当社にお任せください。最新の盗聴器発見機材を使用し発見・除去までお手伝いさせて頂きます。
               </p>
             </div>
           </div>
@@ -108,13 +108,13 @@ Template Name: item
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-menu_6.jpg">
             </div>
             <div class="survey-menu-list__detail">
-              <h2 class="survey-menu__heading"><i class="m-icon"><?php get_template_part('lib/list-icon'); ?></i>雇用・採用、信用調査</h2>
+              <h2 class="survey-menu__heading"><i class="m-icon"><?php get_template_part('lib/list-icon'); ?></i>雇用・採用・信用調査</h2>
               <p class="survey-menu__text">
-                近年、社員による横領、情報流出等や取引先とのトラブルがあとを絶たずそれらを未然に防ぐ為当社にもたくさんの企業様からご依頼を頂いております。個人の信用調査は勿論、企業においても決算内容を始めとする財務関係はもとより代表者・役員の素行や交遊関係の把握中心に問題点を明確にし、取引企業等の将来の方向性を導き出す判断材料とします。
+                近年、社員による横領、情報流出等や取引先とのトラブルがあとを絶たずそれらを未然に防ぐ為当社にもたくさんの企業様からご依頼を頂いております。個人の信用調査は勿論、企業においても決算内容を始めとする財務関係はもとより代表者・役員の素行や交遊関係の把握を中心に問題点を明確にし、取引企業等の将来の方向性を導き出す判断材料とします。
               </p>
             </div>
           </div>
-          <div class="m-link"><a href="<?php echo home_url(); ?>/item/credence/"><span>雇用・採用、信用調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
+          <div class="m-link"><a href="<?php echo home_url(); ?>/item/credence/"><span>雇用・採用・信用調査の詳細</span><i class="m-arrow m-arrow__grey"></i></a></div>
         </div>
 
         <div class="survey-menu-list__item">

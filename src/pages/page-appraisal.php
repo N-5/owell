@@ -45,7 +45,7 @@ Template Name: appraisal
       <div class="l-container">
         <h2 class="survey-point__heading"><span>当てはまることありませんか？</span></h2>
         <div class="survey-point__inner">
-          <div class="survey-point__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-point__image.jpg"></div>
+          <div class="survey-point__image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/item/survey-point__image.jpg" alt="当てはまることありませんか?"></div>
           <ul class="survey-point-list">
             <li class="survey-point-list__item">自分と子供の顔が<span>似ていない</span></li>
             <li class="survey-point-list__item">遺言書に<span>不審な点</span>がある</li>
@@ -69,7 +69,7 @@ Template Name: appraisal
         <div class="top-case-list__item">
           <div class="m-case-number u-md__max"><span>CASE <small>01</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_14.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_14.jpg" alt="CASE01"></div>
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>01</small></span></div>
               <h3 class="top-case-list__heading">
@@ -95,7 +95,7 @@ Template Name: appraisal
         <div class="top-case-list__item">
           <div class="m-case-number u-md__max"><span>CASE <small>02</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_10.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_10.jpg" alt="CASE02"></div>
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>02</small></span></div>
               <h3 class="top-case-list__heading">
@@ -121,7 +121,7 @@ Template Name: appraisal
         <div class="top-case-list__item">
           <div class="m-case-number u-md__max"><span>CASE <small>03</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_8.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_8.jpg" alt="CASE03"></div>
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>03</small></span></div>
               <h3 class="top-case-list__heading">

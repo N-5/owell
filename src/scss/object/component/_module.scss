@@ -46,7 +46,9 @@
 
     .m-arrow {
       position: absolute;
+      top: 50%;
       right: 5%;
+      transform: translate(0, -50%);
     }
 
     @media (--md) {

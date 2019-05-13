@@ -18,7 +18,7 @@ Template Name: personal
   <section class="page-lead">
     <div class="l-container">
       <p class="page-lead__text">
-        相手の素性がわからない…ネット社会で人との繋がりが築きやすい現代だからこそ婚前調査や素性調査の依頼が急増しています。<br class="u-md">
+        相手の素性がわからない…ネット社会で人との繋がりが築きやすい現代だからこそ<br class="md-lg">婚前調査や素性調査の依頼が急増しています。<br class="u-md">
         後悔する前に一度お問い合わせ下さい。
       </p>
     </div>
@@ -29,7 +29,7 @@ Template Name: personal
       <div class="survey-anchor-list">
         <div class="survey-anchoor-list__item"><a href="#a1" data-anchor><span>オーウェルが<br class="u-sm__max">選ばれる理由</span></a></div>
         <div class="survey-anchoor-list__item"><a href="#a2" data-anchor><span>こんなこと<br class="u-sm__max">ありませんか</span></a></div>
-        <div class="survey-anchoor-list__item"><a href="#a3" data-anchor><span>浮気・不倫調査の<br class="u-sm__max">事例</span></a></div>
+        <div class="survey-anchoor-list__item"><a href="#a3" data-anchor><span>婚前調査、身元・<br class="u-sm__max">身辺調査の事例</span></a></div>
         <div class="survey-anchoor-list__item"><a href="#a4" data-anchor>ご契約まで<br class="u-sm__max">の流れ</a></div>
         <div class="survey-anchoor-list__item"><a href="#a5" data-anchor><span>料金</span></a></div>
         <div class="survey-anchoor-list__item"><a href="#a6" data-anchor><span>Q&amp;A</span></a></div>
@@ -55,7 +55,7 @@ Template Name: personal
         <div class="top-case-list__item">
           <div class="m-case-number u-md__max"><span>CASE <small>01</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_2.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_2.jpg" alt="CASE01"></div>
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>01</small></span></div>
               <h3 class="top-case-list__heading">
@@ -81,7 +81,7 @@ Template Name: personal
         <div class="top-case-list__item">
           <div class="m-case-number u-md__max"><span>CASE <small>02</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_4.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_4.jpg" alt="CASE02"></div>
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>02</small></span></div>
               <h3 class="top-case-list__heading">
@@ -107,7 +107,7 @@ Template Name: personal
         <div class="top-case-list__item">
           <div class="m-case-number u-md__max"><span>CASE <small>03</small></span></div>
           <div class="top-case-list__top">
-            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_5.jpg"></div>
+            <div class="top-case-list__person"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/top/top-case_5.jpg" alt="CASE03"></div>
             <div class="top-case-list__detail">
               <div class="m-case-number u-md"><span>CASE <small>03</small></span></div>
               <h3 class="top-case-list__heading">
